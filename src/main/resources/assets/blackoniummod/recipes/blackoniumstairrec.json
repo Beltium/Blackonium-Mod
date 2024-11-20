@@ -1,0 +1,33 @@
+{
+  "group": "blackoniummod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "4": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "5": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "6": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "7": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "8": {
+      "item": "blackoniummod:blackoniumblock"
+    }
+  },
+  "result": {
+    "item": "blackoniummod:blackoniumstair",
+    "count": 3
+  }
+}

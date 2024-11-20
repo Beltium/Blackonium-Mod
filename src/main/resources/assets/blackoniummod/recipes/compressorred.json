@@ -1,0 +1,39 @@
+{
+  "group": "blackoniummod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "1": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "2": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "3": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "5": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "6": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "7": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "8": {
+      "item": "blackoniummod:blackoniumblock"
+    }
+  },
+  "result": {
+    "item": "blackoniummod:blackoniumcompressor",
+    "count": 1
+  }
+}

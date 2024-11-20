@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "blackoniummod",
+    "name": "Blackonium Mod",
+    "description": "It's just a mod for learn mod coding.",
+    "version": "1.4.0",
+    "credits": "Mcreator, Luke_R0",
+    "logoFile": "",
+    "mcversion": "1.12.2",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/blackonium-mod",
+    "updateUrl": "",
+    "authorList": [
+      "Beltium"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "requiredMods": [],
+    "useDependencyInformation": "true"
+  }
+]

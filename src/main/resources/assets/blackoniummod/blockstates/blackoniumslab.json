@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "blackoniummod:blackoniumslab"
+    },
+    "half=top,variant=default": {
+      "model": "blackoniummod:blackoniumslab_top"
+    }
+  }
+}

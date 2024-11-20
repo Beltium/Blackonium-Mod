@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "blackoniummod:items/hammer_iron"
+  }
+}

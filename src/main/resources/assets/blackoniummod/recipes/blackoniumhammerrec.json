@@ -1,0 +1,36 @@
+{
+  "group": "blackoniummod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "blackoniummod:blackoniumingot"
+    },
+    "1": {
+      "item": "blackoniummod:blackoniumingot"
+    },
+    "2": {
+      "item": "blackoniummod:blackoniumingot"
+    },
+    "3": {
+      "item": "blackoniummod:blackoniumingot"
+    },
+    "4": {
+      "item": "blackoniummod:blackoniumingot"
+    },
+    "5": {
+      "item": "blackoniummod:blackoniumingot"
+    },
+    "7": {
+      "item": "blackoniummod:blackoniumstick"
+    }
+  },
+  "result": {
+    "item": "blackoniummod:blackoniumhammer",
+    "count": 1
+  }
+}

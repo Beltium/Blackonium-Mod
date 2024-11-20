@@ -1,0 +1,26 @@
+{
+  "group": "blackoniummod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "blackoniummod:blackoniumingot"
+    },
+    "2": {
+      "item": "blackoniummod:blackoniumingot"
+    },
+    "3": {
+      "item": "blackoniummod:blackoniumingot"
+    },
+    "5": {
+      "item": "blackoniummod:blackoniumingot"
+    }
+  },
+  "result": {
+    "item": "blackoniummod:blackoniumarmorboots",
+    "count": 1
+  }
+}

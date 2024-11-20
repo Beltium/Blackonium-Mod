@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "blackoniummod:blackoniumcompressor"
+    },
+    "facing=north": {
+      "model": "blackoniummod:blackoniumcompressor"
+    },
+    "facing=east": {
+      "model": "blackoniummod:blackoniumcompressor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "blackoniummod:blackoniumcompressor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "blackoniummod:blackoniumcompressor",
+      "y": 270
+    }
+  }
+}

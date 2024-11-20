@@ -1,0 +1,148 @@
+Unsupposrted library path: C:\Users\mathi\MCreatorWorkspaces\beltiumsmod\build\classes\java\api
+Unsupposrted library path: C:\Users\mathi\MCreatorWorkspaces\beltiumsmod\build\resources\api
+Symbol range map extraction starting
+Processing 48 files
+startProcessing "mc/beltium/blackoniummod/BlackoniumMod.java" md5: 99fee6e479e8c15bc63d265eabd472cf
+endProcessing "mc/beltium/blackoniummod/BlackoniumMod.java"
+
+startProcessing "mc/beltium/blackoniummod/BlackoniumModVariables.java" md5: 72cd16e73ed2e02de19af98a267831cb
+endProcessing "mc/beltium/blackoniummod/BlackoniumModVariables.java"
+
+startProcessing "mc/beltium/blackoniummod/ClientProxyBlackoniumMod.java" md5: b32c58d124ab78a58137cbe094322571
+endProcessing "mc/beltium/blackoniummod/ClientProxyBlackoniumMod.java"
+
+startProcessing "mc/beltium/blackoniummod/ElementsBlackoniumMod.java" md5: d8b09c9e150a6fff77194c4e3bb97847
+endProcessing "mc/beltium/blackoniummod/ElementsBlackoniumMod.java"
+
+startProcessing "mc/beltium/blackoniummod/IProxyBlackoniumMod.java" md5: ead022735c81b22b7f6f015e1222d2f5
+endProcessing "mc/beltium/blackoniummod/IProxyBlackoniumMod.java"
+
+startProcessing "mc/beltium/blackoniummod/ServerProxyBlackoniumMod.java" md5: fc604d69a77cfd6321254cc8533c7929
+endProcessing "mc/beltium/blackoniummod/ServerProxyBlackoniumMod.java"
+
+startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumCompressor.java" md5: 01629cdfcfa448813c4722a8b7d7a51d
+endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumCompressor.java"
+
+startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumSlab.java" md5: f5b3308990f44f3278a6144124e4e3af
+endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumSlab.java"
+
+startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumStair.java" md5: 9f4e817bf2d6d4e1f39f3c1fbf8da688
+endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumStair.java"
+
+startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumblock.java" md5: 671a9b53f698b19ca20bf75be4a75131
+endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumblock.java"
+
+startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java" md5: 5c02667969c92f3e686a7054f4c056cf
+endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java"
+
+startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumore.java" md5: 9f43d3ec2d643cf391b6dc9cbd597794
+endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumore.java"
+
+startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumtnt.java" md5: 8baa4e629a8605d8d917b7b5d354a3ec
+endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumtnt.java"
+
+startProcessing "mc/beltium/blackoniummod/block/BlockDoublecompblackonium.java" md5: a35549c709993d4a3e9edb6e8c1eaf08
+endProcessing "mc/beltium/blackoniummod/block/BlockDoublecompblackonium.java"
+
+startProcessing "mc/beltium/blackoniummod/block/BlockSimpleCompressBlackonium.java" md5: c49e59738bbb38e084cd4b53e08087a5
+endProcessing "mc/beltium/blackoniummod/block/BlockSimpleCompressBlackonium.java"
+
+startProcessing "mc/beltium/blackoniummod/creativetab/TabBeltiumsMod.java" md5: 3c8d5dba99f96850ca65578396ea07c6
+endProcessing "mc/beltium/blackoniummod/creativetab/TabBeltiumsMod.java"
+
+startProcessing "mc/beltium/blackoniummod/entity/EntityBlackonimi.java" md5: d47456b10caa69d000b947fdd3b168fb
+endProcessing "mc/beltium/blackoniummod/entity/EntityBlackonimi.java"
+
+startProcessing "mc/beltium/blackoniummod/gui/GuiGuiCompressor.java" md5: 2bdc429e18414b43971014126a6f5a2d
+endProcessing "mc/beltium/blackoniummod/gui/GuiGuiCompressor.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumApple.java" md5: 67b8be8e9ec3522057debc604bdade03
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumApple.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumHammer.java" md5: 03dffa9d69cdfe330261e516463642e3
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumHammer.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumString.java" md5: 6a3c15921de7a3ee024f67eaf10a5282
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumString.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumarmor.java" md5: cc723b19015dc35ac9de8f6291d03e74
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumarmor.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumarrow.java" md5: 10e56afa10d5e7fbe4804fa4df3e0d23
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumarrow.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumbow.java" md5: 9e2d7e72822644ca93fb7023751f1aba
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumbow.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumdiemsion.java" md5: 98dabc4cbd07e3cfedac043e3b89ac70
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumdiemsion.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumdisk.java" md5: 4474d586bbe90242d89efee350f538ad
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumdisk.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumingot.java" md5: 2242d660c9353af81e9c43c9e3f30dfc
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumingot.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumpelleteuse.java" md5: 7581c033930b523b5ca38283aa362a54
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumpelleteuse.java"
+
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumstick.java" md5: 815445366161dc0b7689c5d6c79d411f
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumstick.java"
+
+startProcessing "mc/beltium/blackoniummod/item/crafting/RecipeBlackoniumoresmelt.java" md5: 7fcd3642b275688301109c32ab53378a
+endProcessing "mc/beltium/blackoniummod/item/crafting/RecipeBlackoniumoresmelt.java"
+
+startProcessing "mc/beltium/blackoniummod/potion/PotionBlackoniumpotion.java" md5: a9deb2d9744bc75eebdbaf156827a800
+endProcessing "mc/beltium/blackoniummod/potion/PotionBlackoniumpotion.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackonimiEntityDies.java" md5: d949773813779591b0ee0baeedcadb16
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackonimiEntityDies.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumAppleFoodEaten.java" md5: 7ba2ae7f22c6f2ca9fcdef6c71c74ad8
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumAppleFoodEaten.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumHammerBlockDestroyedWithTool.java" md5: cf9617e9430199796cff4a042b01273b
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumHammerBlockDestroyedWithTool.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBodyTickEvent.java" md5: c8979e00133400160c76ff9307fa8d5a
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBodyTickEvent.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBootsTickEvent.java" md5: 74435a88a8b57fd9161e9c0f6fff8226
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBootsTickEvent.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorHelmetTickEvent.java" md5: ee1113db253318231f7f17bb97eb6ad3
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorHelmetTickEvent.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorLeggingsTickEvent.java" md5: 10fca5fc557deffd09b18dd4ff456b45
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorLeggingsTickEvent.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumbowBulletHitsPlayer.java" md5: 331ce5ebdadc6846a5e02dbc60f5c695
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumbowBulletHitsPlayer.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumfluidMobplayerCollidesBlock.java" md5: f84d7179fbaf9c4f15adb8c88f7d1c89
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumfluidMobplayerCollidesBlock.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpotionPotionStartedapplied.java" md5: 943a4db38e5fe2caf1800e42637acdf3
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpotionPotionStartedapplied.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumtntBlockDestroyedByExplosion.java" md5: bac8de34da5e709cef1e7322f360142e
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumtntBlockDestroyedByExplosion.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumtntBlockDestroyedByExplosionn.java" md5: b03beb73d17daa2549995cbcad746d8f
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumtntBlockDestroyedByExplosionn.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumtntOnBlockRightClicked.java" md5: e45b558be1e82dcb6dde5e2ad14d3127
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumtntOnBlockRightClicked.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureCompressorGuiProssedure.java" md5: 732582397ac91405c0d2304bb3bc47bb
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureCompressorGuiProssedure.java"
+
+startProcessing "mc/beltium/blackoniummod/world/WorldBlackoniumdiemsion.java" md5: 5243bd83c83bb52d4aeb9021d981d509
+endProcessing "mc/beltium/blackoniummod/world/WorldBlackoniumdiemsion.java"
+
+startProcessing "mc/beltium/blackoniummod/world/biome/BiomeBlackoniumBiome.java" md5: 41e693035b9378675ca32ed9e02e7993
+endProcessing "mc/beltium/blackoniummod/world/biome/BiomeBlackoniumBiome.java"
+
+startProcessing "mc/beltium/blackoniummod/world/structure/StructureBlackoniumStu.java" md5: 93629cf665c8b12b7da90148c2ec4703
+endProcessing "mc/beltium/blackoniummod/world/structure/StructureBlackoniumStu.java"
+

@@ -1,0 +1,22 @@
+{
+  "group": "blackoniummod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "1": {
+      "item": "blackoniummod:blackoniumblock"
+    },
+    "2": {
+      "item": "blackoniummod:blackoniumblock"
+    }
+  },
+  "result": {
+    "item": "blackoniummod:blackoniumslab",
+    "count": 3
+  }
+}

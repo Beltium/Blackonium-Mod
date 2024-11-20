@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "blackoniummod:blackoniumdiemsion_portal_ew"
+    },
+    "axis=x": {
+      "model": "blackoniummod:blackoniumdiemsion_portal_ns"
+    },
+    "inventory": {
+      "model": "blackoniummod:blackoniumdiemsion_portal_ns"
+    }
+  }
+}

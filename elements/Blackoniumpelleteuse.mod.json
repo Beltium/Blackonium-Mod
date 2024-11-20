@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "iron_pelleteuse",
+    "customModelName": "Normal",
+    "name": "Blackonium Pelleteuse",
+    "creativeTab": {
+      "value": "CUSTOM:BeltiumsMod"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 100,
+    "efficiency": 15.0,
+    "attackSpeed": 1.0,
+    "enchantability": 9,
+    "damageVsEntity": 4.0,
+    "usageCount": 15000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Blackoniumingot"
+      }
+    ]
+  }
+}

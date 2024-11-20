@@ -1,0 +1,11 @@
+{
+  "error_sound": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "blackoniummod:error-_retudozon_",
+        "stream": false
+      }
+    ]
+  }
+}

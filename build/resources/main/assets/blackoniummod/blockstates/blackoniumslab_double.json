@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "blackoniummod:blackoniumslab_double"
+    }
+  }
+}

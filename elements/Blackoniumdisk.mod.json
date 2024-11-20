@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "record_11",
+    "name": "Blackonium Disk",
+    "description": "Is it a simple music disk ?",
+    "creativeTab": {
+      "value": "CUSTOM:BeltiumsMod"
+    },
+    "music": {
+      "value": "CUSTOM:error_sound"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

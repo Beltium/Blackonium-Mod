@@ -1,0 +1,33 @@
+{
+  "group": "blackoniummod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "3 5",
+    " 78"
+  ],
+  "key": {
+    "1": {
+      "item": "blackoniummod:blackoniumstick"
+    },
+    "2": {
+      "item": "blackoniummod:blackoniumstring"
+    },
+    "3": {
+      "item": "blackoniummod:blackoniumstick"
+    },
+    "5": {
+      "item": "blackoniummod:blackoniumstring"
+    },
+    "7": {
+      "item": "blackoniummod:blackoniumstick"
+    },
+    "8": {
+      "item": "blackoniummod:blackoniumstring"
+    }
+  },
+  "result": {
+    "item": "blackoniummod:blackoniumbow",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "group": "blackoniummod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "blackoniummod:blackoniumingot"
+    },
+    "1": {
+      "item": "blackoniummod:blackoniumingot"
+    }
+  },
+  "result": {
+    "item": "blackoniummod:blackoniumstick",
+    "count": 1
+  }
+}

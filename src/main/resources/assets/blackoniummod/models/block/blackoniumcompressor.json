@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blackoniummod:blocks/simple",
+    "up": "blackoniummod:blocks/simple",
+    "north": "blackoniummod:blocks/compressor",
+    "east": "blackoniummod:blocks/aaaaaaaa",
+    "south": "blackoniummod:blocks/aaaaaaaa",
+    "west": "blackoniummod:blocks/aaaaaaaa",
+    "particle": "blackoniummod:blocks/simple"
+  }
+}

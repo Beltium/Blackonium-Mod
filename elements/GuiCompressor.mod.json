@@ -1,0 +1,85 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Compressor",
+          "color": {
+            "value": -12566464,
+            "falpha": 0.0
+          },
+          "name": "Compressor",
+          "x": 264,
+          "y": 78
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "onSlotChanged": {
+            "name": "CompressorGuiProssedure"
+          },
+          "onTakenFromSlot": {
+            "name": "CompressorGuiProssedure"
+          },
+          "onStackTransfer": {
+            "name": "CompressorGuiProssedure"
+          },
+          "name": "Slot #0",
+          "x": 300,
+          "y": 150
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "name": "Slot #1",
+          "x": 516,
+          "y": 150
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fr-minecraft_bcs3_2013-03-31_15.06.45.png",
+          "name": "fr-minecraft_bcs3_2013-03-31_15.06.45.png",
+          "x": 426,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "onSlotChanged": {
+            "name": "CompressorGuiProssedure"
+          },
+          "onTakenFromSlot": {
+            "name": "CompressorGuiProssedure"
+          },
+          "onStackTransfer": {
+            "name": "CompressorGuiProssedure"
+          },
+          "name": "Slot #2",
+          "x": 354,
+          "y": 150
+        }
+      }
+    ]
+  }
+}

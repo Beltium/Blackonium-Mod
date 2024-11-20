@@ -1,0 +1,41 @@
+{
+  "_fv": 6,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "bow_standby",
+    "customModelName": "Normal",
+    "name": "Blackonium Bow",
+    "creativeTab": {
+      "value": "CUSTOM:BeltiumsMod"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Blackoniumarrow"
+    },
+    "shootConstantly": false,
+    "usageCount": 1000,
+    "actionSound": {
+      "value": "block.anvil.fall"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 10.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Blackoniumarrow"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "BlackoniumbowBulletHitsPlayer"
+    },
+    "onBulletHitsEntity": {
+      "name": "BlackoniumbowBulletHitsPlayer"
+    }
+  }
+}
