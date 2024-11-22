@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "blackoniummod:blocks/aaaaaaaa",
-    "top": "blackoniummod:blocks/aaaaaaaa",
-    "side": "blackoniummod:blocks/aaaaaaaa"
-  }
-}
