@@ -10,14 +10,14 @@
       {
         "type": "label",
         "data": {
-          "text": "Compressor",
+          "text": "Blackonium Compressor",
           "color": {
             "value": -12566464,
             "falpha": 0.0
           },
-          "name": "Compressor",
-          "x": 264,
-          "y": 78
+          "name": "Blackonium Compressor",
+          "x": 265,
+          "y": 86
         }
       },
       {
@@ -37,7 +37,7 @@
             "name": "CompressorGuiProssedure"
           },
           "name": "Slot #0",
-          "x": 300,
+          "x": 287,
           "y": 150
         }
       },
@@ -55,8 +55,8 @@
         "data": {
           "image": "fr-minecraft_bcs3_2013-03-31_15.06.45.png",
           "name": "fr-minecraft_bcs3_2013-03-31_15.06.45.png",
-          "x": 426,
-          "y": 150
+          "x": 431,
+          "y": 144
         }
       },
       {
@@ -76,7 +76,7 @@
             "name": "CompressorGuiProssedure"
           },
           "name": "Slot #2",
-          "x": 354,
+          "x": 356,
           "y": 150
         }
       }

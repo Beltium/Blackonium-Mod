@@ -53,7 +53,7 @@ endProcessing "mc/beltium/blackoniummod/creativetab/TabBeltiumsMod.java"
 startProcessing "mc/beltium/blackoniummod/entity/EntityBlackonimi.java" md5: d47456b10caa69d000b947fdd3b168fb
 endProcessing "mc/beltium/blackoniummod/entity/EntityBlackonimi.java"
 
-startProcessing "mc/beltium/blackoniummod/gui/GuiGuiCompressor.java" md5: 2bdc429e18414b43971014126a6f5a2d
+startProcessing "mc/beltium/blackoniummod/gui/GuiGuiCompressor.java" md5: 3793869578ae537fb7408a3f6feb67ab
 endProcessing "mc/beltium/blackoniummod/gui/GuiGuiCompressor.java"
 
 startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumApple.java" md5: 67b8be8e9ec3522057debc604bdade03

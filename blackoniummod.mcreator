@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "DIMENSION": 1,
     "GUI": 1,
-    "ENTITY": 3
+    "ENTITY": 3,
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
@@ -633,14 +633,6 @@
       "ids": {}
     },
     {
-      "name": "BlackoniumSlabRec",
-      "type": "recipe",
-      "sortid": 52,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "CompressorRed",
       "type": "recipe",
       "sortid": 53,
@@ -700,6 +692,14 @@
       "name": "BlackoniumIngotRec",
       "type": "recipe",
       "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackoniumSlabRecette",
+      "type": "recipe",
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {}

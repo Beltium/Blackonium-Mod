@@ -63,7 +63,7 @@ public class GuiGuiCompressor extends ElementsBlackoniumMod.ModElement {
 			TileEntity ent = world.getTileEntity(new BlockPos(x, y, z));
 			if (ent instanceof IInventory)
 				this.internal = (IInventory) ent;
-			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 26, 39) {
+			this.customSlots.put(0, this.addSlotToContainer(new Slot(internal, 0, 19, 39) {
 				@Override
 				public void onSlotChanged() {
 					super.onSlotChanged();
@@ -89,7 +89,7 @@ public class GuiGuiCompressor extends ElementsBlackoniumMod.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 53, 39) {
+			this.customSlots.put(2, this.addSlotToContainer(new Slot(internal, 2, 54, 39) {
 				@Override
 				public void onSlotChanged() {
 					super.onSlotChanged();
@@ -294,7 +294,7 @@ public class GuiGuiCompressor extends ElementsBlackoniumMod.ModElement {
 			this.drawTexturedModalRect(k, l, 0, 0, this.xSize, this.ySize);
 			zLevel = 100.0F;
 			this.mc.renderEngine.bindTexture(new ResourceLocation("blackoniummod:textures/fr-minecraft_bcs3_2013-03-31_15.06.45.png"));
-			this.drawTexturedModalRect(this.guiLeft + 88, this.guiTop + 38, 0, 0, 256, 256);
+			this.drawTexturedModalRect(this.guiLeft + 90, this.guiTop + 35, 0, 0, 256, 256);
 		}
 
 		@Override
@@ -314,7 +314,7 @@ public class GuiGuiCompressor extends ElementsBlackoniumMod.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
-			this.fontRenderer.drawString("Compressor", 7, 2, -12566464);
+			this.fontRenderer.drawString("Blackonium Compressor", 7, 6, -12566464);
 		}
 
 		@Override
