@@ -59,7 +59,7 @@ endProcessing "mc/beltium/blackoniummod/gui/GuiGuiCompressor.java"
 startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumApple.java" md5: 67b8be8e9ec3522057debc604bdade03
 endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumApple.java"
 
-startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumHammer.java" md5: 03dffa9d69cdfe330261e516463642e3
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumHammer.java" md5: 119b779f87b063d45d99acd36292d5b5
 endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumHammer.java"
 
 startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumString.java" md5: 6a3c15921de7a3ee024f67eaf10a5282
@@ -101,9 +101,6 @@ endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackonimiEntityDies.
 startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumAppleFoodEaten.java" md5: 7ba2ae7f22c6f2ca9fcdef6c71c74ad8
 endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumAppleFoodEaten.java"
 
-startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumHammerBlockDestroyedWithTool.java" md5: cf9617e9430199796cff4a042b01273b
-endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumHammerBlockDestroyedWithTool.java"
-
 startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBodyTickEvent.java" md5: c8979e00133400160c76ff9307fa8d5a
 endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBodyTickEvent.java"
 
@@ -121,6 +118,9 @@ endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumbowBulletHi
 
 startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumfluidMobplayerCollidesBlock.java" md5: f84d7179fbaf9c4f15adb8c88f7d1c89
 endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumfluidMobplayerCollidesBlock.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpelleteuseBlockDestroyedWithTool.java" md5: 3fc09ced086e016afa353ff1de5c9d11
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpelleteuseBlockDestroyedWithTool.java"
 
 startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpotionPotionStartedapplied.java" md5: 943a4db38e5fe2caf1800e42637acdf3
 endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpotionPotionStartedapplied.java"

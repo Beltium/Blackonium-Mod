@@ -17,7 +17,7 @@ import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
-import mc.beltium.blackoniummod.procedure.ProcedureBlackoniumHammerBlockDestroyedWithTool;
+import mc.beltium.blackoniummod.procedure.ProcedureBlackoniumpelleteuseBlockDestroyedWithTool;
 import mc.beltium.blackoniummod.creativetab.TabBeltiumsMod;
 import mc.beltium.blackoniummod.ElementsBlackoniumMod;
 
@@ -29,18 +29,18 @@ public class ItemBlackoniumHammer extends ElementsBlackoniumMod.ModElement {
 	@GameRegistry.ObjectHolder("blackoniummod:blackoniumhammer")
 	public static final Item block = null;
 	public ItemBlackoniumHammer(ElementsBlackoniumMod instance) {
-		super(instance, 38);
+		super(instance, 54);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("BLACKONIUMHAMMER", 20, 4096, 15f, 0f, 2)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("BLACKONIUMHAMMER", 1, 1000, 4f, 0f, 2)) {
 			{
 				this.attackSpeed = -3f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("pickaxe", 20);
+				ret.put("pickaxe", 1);
 				return ret.keySet();
 			}
 
@@ -57,7 +57,7 @@ public class ItemBlackoniumHammer extends ElementsBlackoniumMod.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					ProcedureBlackoniumHammerBlockDestroyedWithTool.executeProcedure($_dependencies);
+					ProcedureBlackoniumpelleteuseBlockDestroyedWithTool.executeProcedure($_dependencies);
 				}
 				return retval;
 			}

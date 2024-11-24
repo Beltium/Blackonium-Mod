@@ -1,0 +1,13 @@
+{
+  "group": "blackoniummod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "blackoniummod:blackoniumblock"
+    }
+  ],
+  "result": {
+    "item": "blackoniummod:blackoniumingot",
+    "count": 9
+  }
+}

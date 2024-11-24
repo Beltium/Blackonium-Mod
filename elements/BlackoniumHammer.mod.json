@@ -10,17 +10,21 @@
       "value": "CUSTOM:BeltiumsMod"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 20,
-    "efficiency": 15.0,
+    "harvestLevel": 1,
+    "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,
-    "usageCount": 4096,
+    "usageCount": 1000,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:Blackoniumingot"
+      }
+    ],
     "onBlockDestroyedWithTool": {
-      "name": "BlackoniumHammerBlockDestroyedWithTool"
+      "name": "BlackoniumpelleteuseBlockDestroyedWithTool"
     }
   }
 }

@@ -1077,14 +1077,14 @@ New Key: class mc/beltium/blackoniummod/ElementsBlackoniumMod
 New Key: class mc/beltium/blackoniummod/ElementsBlackoniumMod
 New Key: class net/minecraftforge/fml/common/registry/GameRegistry
 FOUND CONSTR method mc/beltium/blackoniummod/item/ItemBlackoniumHammer/ItemBlackoniumHammer (Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V mc/beltium/blackoniummod/item/ItemBlackoniumHammer
-Rename field net/minecraft/item/ItemTool/attackSpeed[1480,1491]::attackSpeed->field_185065_c
-Rename method net/minecraft/item/Item/onBlockDestroyed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Z[1729,1745]::onBlockDestroyed->func_179218_a
-Rename method net/minecraft/item/Item/onBlockDestroyed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Z[1862,1878]::onBlockDestroyed->func_179218_a
-Rename method net/minecraft/util/math/Vec3i/getX ()I[1929,1933]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[1963,1967]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[1997,2001]::getZ->func_177952_p
-Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[2419,2437]::setUnlocalizedName->func_77655_b
-Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2488,2502]::setCreativeTab->func_77637_a
+Rename field net/minecraft/item/ItemTool/attackSpeed[1482,1493]::attackSpeed->field_185065_c
+Rename method net/minecraft/item/Item/onBlockDestroyed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Z[1730,1746]::onBlockDestroyed->func_179218_a
+Rename method net/minecraft/item/Item/onBlockDestroyed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/entity/EntityLivingBase;)Z[1863,1879]::onBlockDestroyed->func_179218_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[1930,1934]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[1964,1968]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[1998,2002]::getZ->func_177952_p
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[2424,2442]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2493,2507]::setCreativeTab->func_77637_a
 Import: net.minecraftforge.fml.relauncher.SideOnly
 Import: net.minecraftforge.fml.relauncher.Side
 Import: net.minecraftforge.fml.common.registry.GameRegistry
@@ -1099,7 +1099,7 @@ Import: net.minecraft.item.Item
 Import: net.minecraft.entity.EntityLivingBase
 Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
 Import: net.minecraft.block.state.IBlockState
-Import: mc.beltium.blackoniummod.procedure.ProcedureBlackoniumHammerBlockDestroyedWithTool
+Import: mc.beltium.blackoniummod.procedure.ProcedureBlackoniumpelleteuseBlockDestroyedWithTool
 Import: mc.beltium.blackoniummod.creativetab.TabBeltiumsMod
 Import: mc.beltium.blackoniummod.ElementsBlackoniumMod
 Import: java.util.Set
@@ -1561,337 +1561,6 @@ Import: mc.beltium.blackoniummod.entity.EntityBlackonimi
 Import: mc.beltium.blackoniummod.ElementsBlackoniumMod
 End  Processing: mc/beltium/blackoniummod/procedure/ProcedureBlackoniumAppleFoodEaten.java
 
-Start Processing: mc/beltium/blackoniummod/procedure/ProcedureBlackoniumHammerBlockDestroyedWithTool.java
-New Key: class mc/beltium/blackoniummod/ElementsBlackoniumMod
-New Key: class mc/beltium/blackoniummod/ElementsBlackoniumMod
-FOUND CONSTR method mc/beltium/blackoniummod/procedure/ProcedureBlackoniumHammerBlockDestroyedWithTool/ProcedureBlackoniumHammerBlockDestroyedWithTool (Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V mc/beltium/blackoniummod/procedure/ProcedureBlackoniumHammerBlockDestroyedWithTool
-Rename field net/minecraft/entity/Entity/rotationPitch[1787,1800]::rotationPitch->field_70125_A
-Rename field net/minecraft/entity/Entity/rotationPitch[1820,1833]::rotationPitch->field_70125_A
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1863,1876]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[1925,1936]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[1953,1957]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1988,2001]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2050,2058]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[2076,2083]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2091,2106]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2116,2124]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2149,2162]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2210,2218]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[2226,2241]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2301,2314]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[2378,2391]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2463,2476]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[2525,2536]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[2553,2557]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2588,2601]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2650,2658]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[2676,2683]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2691,2706]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2716,2724]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2749,2762]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2810,2818]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[2826,2841]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2901,2914]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[2978,2991]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3063,3076]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[3131,3142]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[3159,3163]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3194,3207]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3262,3270]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[3288,3295]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3303,3318]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3328,3336]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3361,3374]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3428,3436]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[3444,3459]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3519,3532]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[3602,3615]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3693,3706]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[3761,3772]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[3789,3793]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3824,3837]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3892,3900]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[3918,3925]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3933,3948]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3958,3966]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3991,4004]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4058,4066]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[4074,4089]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4149,4162]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[4232,4245]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4323,4336]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[4391,4402]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[4419,4423]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4454,4467]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4522,4530]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[4548,4555]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4563,4578]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4588,4596]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4621,4634]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4688,4696]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[4704,4719]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4779,4792]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[4862,4875]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4953,4966]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[5021,5032]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[5049,5053]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5084,5097]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5152,5160]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[5178,5185]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[5193,5208]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5218,5226]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5251,5264]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5318,5326]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[5334,5349]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5409,5422]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[5492,5505]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5583,5596]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[5645,5656]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[5673,5677]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5708,5721]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5770,5778]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[5796,5803]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[5811,5826]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5836,5844]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5869,5882]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5930,5938]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[5946,5961]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6021,6034]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[6098,6111]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6183,6196]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[6245,6256]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[6273,6277]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6308,6321]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6370,6378]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[6396,6403]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[6411,6426]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6436,6444]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6469,6482]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6530,6538]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[6546,6561]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6621,6634]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[6698,6711]::setBlockToAir->func_175698_g
-Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[6790,6809]::getHorizontalFacing->func_174811_aO
-Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[6841,6860]::getHorizontalFacing->func_174811_aO
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6901,6914]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[6963,6974]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[6991,6995]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7026,7039]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7088,7096]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[7114,7121]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[7129,7144]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7154,7162]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7187,7200]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7248,7256]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[7264,7279]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7339,7352]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[7416,7429]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7501,7514]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[7563,7574]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[7591,7595]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7626,7639]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7688,7696]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[7714,7721]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[7729,7744]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7754,7762]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7787,7800]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7848,7856]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[7864,7879]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7939,7952]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[8016,8029]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8101,8114]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[8169,8180]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[8197,8201]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8232,8245]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[8300,8308]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[8326,8333]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[8341,8356]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[8366,8374]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8399,8412]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[8466,8474]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[8482,8497]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8557,8570]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[8640,8653]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8731,8744]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[8799,8810]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[8827,8831]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8862,8875]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[8930,8938]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[8956,8963]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[8971,8986]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[8996,9004]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9029,9042]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[9096,9104]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[9112,9127]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9187,9200]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[9270,9283]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9361,9374]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[9429,9440]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[9457,9461]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9492,9505]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[9560,9568]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[9586,9593]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[9601,9616]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[9626,9634]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9659,9672]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[9726,9734]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[9742,9757]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9817,9830]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[9900,9913]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9991,10004]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[10059,10070]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[10087,10091]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10122,10135]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10190,10198]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[10216,10223]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[10231,10246]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10256,10264]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10289,10302]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10356,10364]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[10372,10387]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10447,10460]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[10530,10543]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10621,10634]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[10683,10694]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[10711,10715]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10746,10759]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10808,10816]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[10834,10841]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[10849,10864]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10874,10882]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10907,10920]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10968,10976]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[10984,10999]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11059,11072]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[11136,11149]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11221,11234]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[11283,11294]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[11311,11315]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11346,11359]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[11408,11416]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[11434,11441]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[11449,11464]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[11474,11482]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11507,11520]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[11568,11576]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[11584,11599]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11659,11672]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[11736,11749]::setBlockToAir->func_175698_g
-Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[11828,11847]::getHorizontalFacing->func_174811_aO
-Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[11878,11897]::getHorizontalFacing->func_174811_aO
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11937,11950]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[11999,12010]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[12027,12031]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12062,12075]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12124,12132]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[12150,12157]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[12165,12180]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12190,12198]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12223,12236]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12284,12292]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[12300,12315]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12375,12388]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[12452,12465]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12537,12550]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[12599,12610]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[12627,12631]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12662,12675]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12724,12732]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[12750,12757]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[12765,12780]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12790,12798]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12823,12836]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12884,12892]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[12900,12915]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12975,12988]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[13052,13065]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13137,13150]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[13205,13216]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[13233,13237]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13268,13281]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[13336,13344]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[13362,13369]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[13377,13392]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[13402,13410]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13435,13448]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[13502,13510]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[13518,13533]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13593,13606]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[13676,13689]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13767,13780]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[13835,13846]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[13863,13867]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13898,13911]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[13966,13974]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[13992,13999]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[14007,14022]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[14032,14040]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14065,14078]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[14132,14140]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[14148,14163]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14223,14236]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[14306,14319]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14397,14410]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[14465,14476]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[14493,14497]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14528,14541]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[14596,14604]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[14622,14629]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[14637,14652]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[14662,14670]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14695,14708]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[14762,14770]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[14778,14793]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14853,14866]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[14936,14949]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15027,15040]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[15095,15106]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[15123,15127]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15158,15171]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[15226,15234]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[15252,15259]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[15267,15282]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[15292,15300]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15325,15338]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[15392,15400]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[15408,15423]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15483,15496]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[15566,15579]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15657,15670]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[15719,15730]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[15747,15751]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15782,15795]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[15844,15852]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[15870,15877]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[15885,15900]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[15910,15918]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15943,15956]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[16004,16012]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[16020,16035]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[16095,16108]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[16172,16185]::setBlockToAir->func_175698_g
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[16257,16270]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[16319,16330]::getMaterial->func_185904_a
-Rename field net/minecraft/block/material/Material/ROCK[16347,16351]::ROCK->field_151576_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[16382,16395]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[16444,16452]::getBlock->func_177230_c
-Rename field net/minecraft/init/Blocks/BEDROCK[16470,16477]::BEDROCK->field_150357_h
-Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[16485,16500]::getDefaultState->func_176223_P
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[16510,16518]::getBlock->func_177230_c
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[16543,16556]::getBlockState->func_180495_p
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[16604,16612]::getBlock->func_177230_c
-Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[16620,16635]::dropBlockAsItem->func_176226_b
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[16695,16708]::getBlockState->func_180495_p
-Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[16772,16785]::setBlockToAir->func_175698_g
-Import: net.minecraft.world.World
-Import: net.minecraft.util.math.BlockPos
-Import: net.minecraft.util.EnumFacing
-Import: net.minecraft.init.Blocks
-Import: net.minecraft.entity.Entity
-Import: net.minecraft.block.material.Material
-Import: mc.beltium.blackoniummod.ElementsBlackoniumMod
-End  Processing: mc/beltium/blackoniummod/procedure/ProcedureBlackoniumHammerBlockDestroyedWithTool.java
-
 Start Processing: mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBodyTickEvent.java
 New Key: class mc/beltium/blackoniummod/ElementsBlackoniumMod
 New Key: class mc/beltium/blackoniummod/ElementsBlackoniumMod
@@ -1972,6 +1641,337 @@ Import: net.minecraft.entity.Entity
 Import: mc.beltium.blackoniummod.potion.PotionBlackoniumpotion
 Import: mc.beltium.blackoniummod.ElementsBlackoniumMod
 End  Processing: mc/beltium/blackoniummod/procedure/ProcedureBlackoniumfluidMobplayerCollidesBlock.java
+
+Start Processing: mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpelleteuseBlockDestroyedWithTool.java
+New Key: class mc/beltium/blackoniummod/ElementsBlackoniumMod
+New Key: class mc/beltium/blackoniummod/ElementsBlackoniumMod
+FOUND CONSTR method mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpelleteuseBlockDestroyedWithTool/ProcedureBlackoniumpelleteuseBlockDestroyedWithTool (Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpelleteuseBlockDestroyedWithTool
+Rename field net/minecraft/entity/Entity/rotationPitch[1815,1828]::rotationPitch->field_70125_A
+Rename field net/minecraft/entity/Entity/rotationPitch[1848,1861]::rotationPitch->field_70125_A
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[1891,1904]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[1953,1964]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[1981,1985]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2016,2029]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2078,2086]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[2104,2111]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2119,2134]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2144,2152]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2177,2190]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2238,2246]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[2254,2269]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2329,2342]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[2406,2419]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2491,2504]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[2553,2564]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[2581,2585]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2616,2629]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2678,2686]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[2704,2711]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[2719,2734]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2744,2752]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2777,2790]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[2838,2846]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[2854,2869]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[2929,2942]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[3006,3019]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3091,3104]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[3159,3170]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[3187,3191]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3222,3235]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3290,3298]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[3316,3323]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3331,3346]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3356,3364]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3389,3402]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3456,3464]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[3472,3487]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3547,3560]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[3630,3643]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3721,3734]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[3789,3800]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[3817,3821]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3852,3865]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3920,3928]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[3946,3953]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3961,3976]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3986,3994]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4019,4032]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4086,4094]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[4102,4117]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4177,4190]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[4260,4273]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4351,4364]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[4419,4430]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[4447,4451]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4482,4495]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4550,4558]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[4576,4583]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4591,4606]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4616,4624]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4649,4662]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[4716,4724]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[4732,4747]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4807,4820]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[4890,4903]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[4981,4994]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[5049,5060]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[5077,5081]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5112,5125]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5180,5188]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[5206,5213]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[5221,5236]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5246,5254]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5279,5292]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5346,5354]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[5362,5377]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5437,5450]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[5520,5533]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5611,5624]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[5673,5684]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[5701,5705]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5736,5749]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5798,5806]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[5824,5831]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[5839,5854]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5864,5872]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[5897,5910]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[5958,5966]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[5974,5989]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6049,6062]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[6126,6139]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6211,6224]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[6273,6284]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[6301,6305]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6336,6349]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6398,6406]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[6424,6431]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[6439,6454]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6464,6472]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6497,6510]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[6558,6566]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[6574,6589]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6649,6662]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[6726,6739]::setBlockToAir->func_175698_g
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[6818,6837]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[6869,6888]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[6929,6942]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[6991,7002]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[7019,7023]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7054,7067]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7116,7124]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[7142,7149]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[7157,7172]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7182,7190]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7215,7228]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7276,7284]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[7292,7307]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7367,7380]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[7444,7457]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7529,7542]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[7591,7602]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[7619,7623]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7654,7667]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7716,7724]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[7742,7749]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[7757,7772]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7782,7790]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7815,7828]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[7876,7884]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[7892,7907]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[7967,7980]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[8044,8057]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8129,8142]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[8197,8208]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[8225,8229]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8260,8273]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[8328,8336]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[8354,8361]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[8369,8384]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[8394,8402]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8427,8440]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[8494,8502]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[8510,8525]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8585,8598]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[8668,8681]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8759,8772]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[8827,8838]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[8855,8859]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[8890,8903]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[8958,8966]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[8984,8991]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[8999,9014]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[9024,9032]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9057,9070]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[9124,9132]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[9140,9155]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9215,9228]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[9298,9311]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9389,9402]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[9457,9468]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[9485,9489]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9520,9533]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[9588,9596]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[9614,9621]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[9629,9644]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[9654,9662]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9687,9700]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[9754,9762]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[9770,9785]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[9845,9858]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[9928,9941]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10019,10032]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[10087,10098]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[10115,10119]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10150,10163]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10218,10226]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[10244,10251]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[10259,10274]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10284,10292]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10317,10330]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10384,10392]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[10400,10415]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10475,10488]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[10558,10571]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10649,10662]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[10711,10722]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[10739,10743]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10774,10787]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10836,10844]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[10862,10869]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[10877,10892]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10902,10910]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[10935,10948]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[10996,11004]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[11012,11027]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11087,11100]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[11164,11177]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11249,11262]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[11311,11322]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[11339,11343]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11374,11387]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[11436,11444]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[11462,11469]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[11477,11492]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[11502,11510]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11535,11548]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[11596,11604]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[11612,11627]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11687,11700]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[11764,11777]::setBlockToAir->func_175698_g
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[11856,11875]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[11906,11925]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[11965,11978]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[12027,12038]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[12055,12059]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12090,12103]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12152,12160]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[12178,12185]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[12193,12208]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12218,12226]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12251,12264]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12312,12320]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[12328,12343]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12403,12416]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[12480,12493]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12565,12578]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[12627,12638]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[12655,12659]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12690,12703]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12752,12760]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[12778,12785]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[12793,12808]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12818,12826]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[12851,12864]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[12912,12920]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[12928,12943]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13003,13016]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[13080,13093]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13165,13178]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[13233,13244]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[13261,13265]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13296,13309]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[13364,13372]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[13390,13397]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[13405,13420]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[13430,13438]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13463,13476]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[13530,13538]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[13546,13561]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13621,13634]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[13704,13717]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13795,13808]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[13863,13874]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[13891,13895]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[13926,13939]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[13994,14002]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[14020,14027]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[14035,14050]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[14060,14068]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14093,14106]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[14160,14168]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[14176,14191]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14251,14264]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[14334,14347]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14425,14438]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[14493,14504]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[14521,14525]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14556,14569]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[14624,14632]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[14650,14657]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[14665,14680]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[14690,14698]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14723,14736]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[14790,14798]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[14806,14821]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[14881,14894]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[14964,14977]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15055,15068]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[15123,15134]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[15151,15155]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15186,15199]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[15254,15262]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[15280,15287]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[15295,15310]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[15320,15328]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15353,15366]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[15420,15428]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[15436,15451]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15511,15524]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[15594,15607]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15685,15698]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[15747,15758]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[15775,15779]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15810,15823]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[15872,15880]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[15898,15905]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[15913,15928]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[15938,15946]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[15971,15984]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[16032,16040]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[16048,16063]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[16123,16136]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[16200,16213]::setBlockToAir->func_175698_g
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[16285,16298]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockProperties/getMaterial ()Lnet/minecraft/block/material/Material;[16347,16358]::getMaterial->func_185904_a
+Rename field net/minecraft/block/material/Material/ROCK[16375,16379]::ROCK->field_151576_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[16410,16423]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[16472,16480]::getBlock->func_177230_c
+Rename field net/minecraft/init/Blocks/BEDROCK[16498,16505]::BEDROCK->field_150357_h
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[16513,16528]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[16538,16546]::getBlock->func_177230_c
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[16571,16584]::getBlockState->func_180495_p
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[16632,16640]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/dropBlockAsItem (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)V[16648,16663]::dropBlockAsItem->func_176226_b
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[16723,16736]::getBlockState->func_180495_p
+Rename method net/minecraft/world/World/setBlockToAir (Lnet/minecraft/util/math/BlockPos;)Z[16800,16813]::setBlockToAir->func_175698_g
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.init.Blocks
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.block.material.Material
+Import: mc.beltium.blackoniummod.ElementsBlackoniumMod
+End  Processing: mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpelleteuseBlockDestroyedWithTool.java
 
 Start Processing: mc/beltium/blackoniummod/procedure/ProcedureBlackoniumpotionPotionStartedapplied.java
 New Key: class mc/beltium/blackoniummod/ElementsBlackoniumMod
