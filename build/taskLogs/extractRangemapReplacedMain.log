@@ -32,7 +32,7 @@ endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumStair.java"
 startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumblock.java" md5: 671a9b53f698b19ca20bf75be4a75131
 endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumblock.java"
 
-startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java" md5: 5c02667969c92f3e686a7054f4c056cf
+startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java" md5: 6e129a2f476d3fb92d9602453d65c0a8
 endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java"
 
 startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumore.java" md5: 9f43d3ec2d643cf391b6dc9cbd597794

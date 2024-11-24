@@ -479,15 +479,16 @@ New Key: class mc/beltium/blackoniummod/ElementsBlackoniumMod
 New Key: class net/minecraftforge/fml/common/registry/GameRegistry
 New Key: class net/minecraftforge/fml/common/registry/GameRegistry
 FOUND CONSTR method mc/beltium/blackoniummod/block/BlockBlackoniumfluid/BlockBlackoniumfluid (Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V mc/beltium/blackoniummod/block/BlockBlackoniumfluid
-Rename field net/minecraft/block/material/Material/WATER[2156,2161]::WATER->field_151586_h
-Rename method net/minecraft/block/Block/onEntityCollidedWithBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V[2204,2229]::onEntityCollidedWithBlock->func_180634_a
-Rename method net/minecraft/block/Block/onEntityCollidedWithBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V[2292,2317]::onEntityCollidedWithBlock->func_180634_a
-Rename method net/minecraft/util/math/Vec3i/getX ()I[2351,2355]::getX->func_177958_n
-Rename method net/minecraft/util/math/Vec3i/getY ()I[2385,2389]::getY->func_177956_o
-Rename method net/minecraft/util/math/Vec3i/getZ ()I[2419,2423]::getZ->func_177952_p
-Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2676,2694]::setUnlocalizedName->func_149663_c
-Rename method net/minecraft/client/renderer/ItemMeshDefinition/getModelLocation (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;[3251,3267]::getModelLocation->func_178113_a
-Rename method net/minecraft/client/renderer/block/statemap/StateMapperBase/getModelResourceLocation (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;[3505,3529]::getModelResourceLocation->func_178132_a
+Rename field net/minecraft/block/material/Material/WATER[2362,2367]::WATER->field_151586_h
+Rename method net/minecraft/block/Block/onEntityCollidedWithBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V[2410,2435]::onEntityCollidedWithBlock->func_180634_a
+Rename method net/minecraft/block/Block/onEntityCollidedWithBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V[2498,2523]::onEntityCollidedWithBlock->func_180634_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2557,2561]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2591,2595]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2625,2629]::getZ->func_177952_p
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2882,2900]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/client/renderer/ItemMeshDefinition/getModelLocation (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;[3457,3473]::getModelLocation->func_178113_a
+Rename method net/minecraft/client/renderer/block/statemap/StateMapperBase/getModelResourceLocation (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;[3711,3735]::getModelResourceLocation->func_178132_a
+Rename method net/minecraft/world/gen/feature/WorldGenerator/generate (Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z[4302,4310]::generate->func_180709_b
 Import: net.minecraftforge.fml.relauncher.SideOnly
 Import: net.minecraftforge.fml.relauncher.Side
 Import: net.minecraftforge.fml.common.registry.GameRegistry
@@ -497,6 +498,9 @@ Import: net.minecraftforge.fluids.Fluid
 Import: net.minecraftforge.fluids.BlockFluidClassic
 Import: net.minecraftforge.client.model.ModelLoader
 Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.gen.feature.WorldGenLakes
+Import: net.minecraft.world.gen.IChunkGenerator
+Import: net.minecraft.world.chunk.IChunkProvider
 Import: net.minecraft.world.World
 Import: net.minecraft.util.math.BlockPos
 Import: net.minecraft.util.ResourceLocation
@@ -511,8 +515,10 @@ Import: net.minecraft.client.renderer.ItemMeshDefinition
 Import: net.minecraft.block.state.IBlockState
 Import: net.minecraft.block.material.Material
 Import: net.minecraft.block.Block
+Import: mc.beltium.blackoniummod.world.WorldBlackoniumdiemsion
 Import: mc.beltium.blackoniummod.procedure.ProcedureBlackoniumfluidMobplayerCollidesBlock
 Import: mc.beltium.blackoniummod.ElementsBlackoniumMod
+Import: java.util.Random
 End  Processing: mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java
 
 Start Processing: mc/beltium/blackoniummod/block/BlockBlackoniumore.java

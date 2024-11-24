@@ -1887,141 +1887,173 @@ Class Start: mc.beltium.blackoniummod.block.BlockBlackoniumblock
 Class End  : mc.beltium.blackoniummod.block.BlockBlackoniumblock
 endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumblock.java"
 
-startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java" md5: 5c02667969c92f3e686a7054f4c056cf
+startProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java" md5: 6e129a2f476d3fb92d9602453d65c0a8
 @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|10|40|mc.beltium.blackoniummod.block|package|mc.beltium.blackoniummod.block|(file)
 Class Start: mc.beltium.blackoniummod.block.BlockBlackoniumfluid
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1348|1384|ElementsBlackoniumMod.ModElement.Tag|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement.Tag|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1399|1419|BlockBlackoniumfluid|class|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1428|1460|ElementsBlackoniumMod.ModElement|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1547|1552|Block|class|net.minecraft.block.Block|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1466|1491|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1547|1552|Block|class|net.minecraft.block.Block|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1553|1558|block|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|block|
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1651|1655|Item|class|net.minecraft.item.Item|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1570|1595|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1651|1655|Item|class|net.minecraft.item.Item|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1656|1660|item|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|item|
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1679|1684|Fluid|class|net.minecraftforge.fluids.Fluid|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1679|1684|Fluid|class|net.minecraftforge.fluids.Fluid|false
-   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1685|1690|fluid|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|fluid|
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1594|1630|ElementsBlackoniumMod.ModElement.Tag|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement.Tag|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1645|1665|BlockBlackoniumfluid|class|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1674|1706|ElementsBlackoniumMod.ModElement|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1793|1798|Block|class|net.minecraft.block.Block|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1712|1737|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1793|1798|Block|class|net.minecraft.block.Block|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1799|1804|block|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|block|
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1897|1901|Item|class|net.minecraft.item.Item|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1816|1841|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1897|1901|Item|class|net.minecraft.item.Item|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1902|1906|item|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|item|
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1925|1930|Fluid|class|net.minecraftforge.fluids.Fluid|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1925|1930|Fluid|class|net.minecraftforge.fluids.Fluid|false
+   @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1931|1936|fluid|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|fluid|
    Method Start: BlockBlackoniumfluid(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1744|1752|instance|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|BlockBlackoniumfluid|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1701|1721|BlockBlackoniumfluid|method|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|BlockBlackoniumfluid|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1722|1743|ElementsBlackoniumMod|class|mc.beltium.blackoniummod.ElementsBlackoniumMod|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1765|1773|instance|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|BlockBlackoniumfluid|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1782|1787|fluid|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|fluid
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1794|1799|Fluid|class|net.minecraftforge.fluids.Fluid|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1823|1839|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1896|1912|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1960|1973|setLuminosity|method|net.minecraftforge.fluids.Fluid|setLuminosity|(I)Lnet/minecraftforge/fluids/Fluid;
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1977|1987|setDensity|method|net.minecraftforge.fluids.Fluid|setDensity|(I)Lnet/minecraftforge/fluids/Fluid;
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1994|2006|setViscosity|method|net.minecraftforge.fluids.Fluid|setViscosity|(I)Lnet/minecraftforge/fluids/Fluid;
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2021|2031|setGaseous|method|net.minecraftforge.fluids.Fluid|setGaseous|(Z)Lnet/minecraftforge/fluids/Fluid;
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1990|1998|instance|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|BlockBlackoniumfluid|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1947|1967|BlockBlackoniumfluid|method|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|BlockBlackoniumfluid|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|1968|1989|ElementsBlackoniumMod|class|mc.beltium.blackoniummod.ElementsBlackoniumMod|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2011|2019|instance|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|BlockBlackoniumfluid|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2028|2033|fluid|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|fluid
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2040|2045|Fluid|class|net.minecraftforge.fluids.Fluid|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2069|2085|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2121|2137|ResourceLocation|class|net.minecraft.util.ResourceLocation|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2174|2187|setLuminosity|method|net.minecraftforge.fluids.Fluid|setLuminosity|(I)Lnet/minecraftforge/fluids/Fluid;
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2191|2201|setDensity|method|net.minecraftforge.fluids.Fluid|setDensity|(I)Lnet/minecraftforge/fluids/Fluid;
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2209|2221|setViscosity|method|net.minecraftforge.fluids.Fluid|setViscosity|(I)Lnet/minecraftforge/fluids/Fluid;
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2227|2237|setGaseous|method|net.minecraftforge.fluids.Fluid|setGaseous|(Z)Lnet/minecraftforge/fluids/Fluid;
    Method End: BlockBlackoniumfluid(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
    Method Start: initElements()V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2049|2057|Override|class|java.lang.Override|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2072|2084|initElements|method|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|initElements|()V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2092|2100|elements|field|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|elements
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2101|2107|blocks|field|mc.beltium.blackoniummod.ElementsBlackoniumMod|blocks
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2108|2111|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2122|2139|BlockFluidClassic|class|net.minecraftforge.fluids.BlockFluidClassic|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2140|2145|fluid|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|fluid
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2147|2155|Material|class|net.minecraft.block.material.Material|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2156|2161|WATER|field|net.minecraft.block.material.Material|WATER
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2255|2263|Override|class|java.lang.Override|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2278|2290|initElements|method|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|initElements|()V
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2298|2306|elements|field|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|elements
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2307|2313|blocks|field|mc.beltium.blackoniummod.ElementsBlackoniumMod|blocks
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2314|2317|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2328|2345|BlockFluidClassic|class|net.minecraftforge.fluids.BlockFluidClassic|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2346|2351|fluid|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|fluid
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2353|2361|Material|class|net.minecraft.block.material.Material|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2362|2367|WATER|field|net.minecraft.block.material.Material|WATER
       Anon Class Start: mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1
          Method Start: onEntityCollidedWithBlock(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2227|2232|world|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|world|0
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2243|2246|pos|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|pos|1
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2260|2265|state|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|state|2
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2274|2280|entity|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|entity|3
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2170|2178|Override|class|java.lang.Override|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2195|2220|onEntityCollidedWithBlock|method|net.minecraft.block.Block|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2221|2226|World|class|net.minecraft.world.World|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2234|2242|BlockPos|class|net.minecraft.util.math.BlockPos|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2248|2259|IBlockState|class|net.minecraft.block.state.IBlockState|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2267|2273|Entity|class|net.minecraft.entity.Entity|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2295|2320|onEntityCollidedWithBlock|method|net.minecraft.block.Block|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2321|2326|world|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|world|0
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2328|2331|pos|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|pos|1
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2333|2338|state|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|state|2
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2340|2346|entity|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|entity|3
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2362|2365|pos|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|pos|1
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2366|2370|getX|method|net.minecraft.util.math.Vec3i|getX|()I
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2387|2390|pos|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|pos|1
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2391|2395|getY|method|net.minecraft.util.math.Vec3i|getY|()I
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2412|2415|pos|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|pos|1
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2416|2420|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2437|2454|java.util.HashMap|class|java.util.HashMap|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2455|2461|String|class|java.lang.String|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2463|2469|Object|class|java.lang.Object|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2492|2509|java.util.HashMap|class|java.util.HashMap|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2536|2539|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2550|2556|entity|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|entity|3
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2565|2611|ProcedureBlackoniumfluidMobplayerCollidesBlock|class|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumfluidMobplayerCollidesBlock|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2612|2628|executeProcedure|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumfluidMobplayerCollidesBlock|executeProcedure|(Ljava/util/HashMap;)V
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2433|2438|world|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|world|0
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2449|2452|pos|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|pos|1
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2466|2471|state|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|state|2
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2480|2486|entity|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|entity|3
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2376|2384|Override|class|java.lang.Override|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2401|2426|onEntityCollidedWithBlock|method|net.minecraft.block.Block|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2427|2432|World|class|net.minecraft.world.World|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2440|2448|BlockPos|class|net.minecraft.util.math.BlockPos|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2454|2465|IBlockState|class|net.minecraft.block.state.IBlockState|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2473|2479|Entity|class|net.minecraft.entity.Entity|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2501|2526|onEntityCollidedWithBlock|method|net.minecraft.block.Block|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2527|2532|world|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|world|0
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2534|2537|pos|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|pos|1
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2539|2544|state|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|state|2
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2546|2552|entity|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|entity|3
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2568|2571|pos|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|pos|1
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2572|2576|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2593|2596|pos|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|pos|1
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2597|2601|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2618|2621|pos|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|pos|1
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2622|2626|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2643|2660|java.util.HashMap|class|java.util.HashMap|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2661|2667|String|class|java.lang.String|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2669|2675|Object|class|java.lang.Object|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2698|2715|java.util.HashMap|class|java.util.HashMap|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2742|2745|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2756|2762|entity|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1|onEntityCollidedWithBlock|(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V|entity|3
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2771|2817|ProcedureBlackoniumfluidMobplayerCollidesBlock|class|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumfluidMobplayerCollidesBlock|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2818|2834|executeProcedure|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumfluidMobplayerCollidesBlock|executeProcedure|(Ljava/util/HashMap;)V
          Method End: onEntityCollidedWithBlock(Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V
       Anon Class End: mc.beltium.blackoniummod.block.BlockBlackoniumfluid$1
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2664|2682|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2702|2717|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2742|2750|elements|field|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|elements
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2751|2756|items|field|mc.beltium.blackoniummod.ElementsBlackoniumMod|items
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2757|2760|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2771|2780|ItemBlock|class|net.minecraft.item.ItemBlock|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2781|2786|block|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|block
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2788|2803|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2870|2888|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2908|2923|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2948|2956|elements|field|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|elements
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2957|2962|items|field|mc.beltium.blackoniummod.ElementsBlackoniumMod|items
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2963|2966|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2977|2986|ItemBlock|class|net.minecraft.item.ItemBlock|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2987|2992|block|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|block
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2994|3009|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
    Method End: initElements()V
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2891|2896|event|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2834|2842|Override|class|java.lang.Override|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2857|2864|preInit|method|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2865|2890|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2903|2916|FluidRegistry|class|net.minecraftforge.fluids.FluidRegistry|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2917|2930|registerFluid|method|net.minecraftforge.fluids.FluidRegistry|registerFluid|(Lnet/minecraftforge/fluids/Fluid;)Z
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2931|2936|fluid|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|fluid
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2942|2955|FluidRegistry|class|net.minecraftforge.fluids.FluidRegistry|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2956|2973|addBucketForFluid|method|net.minecraftforge.fluids.FluidRegistry|addBucketForFluid|(Lnet/minecraftforge/fluids/Fluid;)Z
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2974|2979|fluid|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|fluid
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3097|3102|event|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3040|3048|Override|class|java.lang.Override|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3063|3070|preInit|method|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3071|3096|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3109|3122|FluidRegistry|class|net.minecraftforge.fluids.FluidRegistry|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3123|3136|registerFluid|method|net.minecraftforge.fluids.FluidRegistry|registerFluid|(Lnet/minecraftforge/fluids/Fluid;)Z
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3137|3142|fluid|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|fluid
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3148|3161|FluidRegistry|class|net.minecraftforge.fluids.FluidRegistry|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3162|3179|addBucketForFluid|method|net.minecraftforge.fluids.FluidRegistry|addBucketForFluid|(Lnet/minecraftforge/fluids/Fluid;)Z
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3180|3185|fluid|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|fluid
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3073|3078|event|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|2991|2999|Override|class|java.lang.Override|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3003|3011|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3012|3016|Side|class|net.minecraftforge.fml.relauncher.Side|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3017|3023|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3039|3053|registerModels|method|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3054|3072|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3085|3096|ModelBakery|class|net.minecraft.client.renderer.block.model.ModelBakery|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3097|3117|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3118|3122|item|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|item
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3128|3139|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3140|3163|setCustomMeshDefinition|method|net.minecraftforge.client.model.ModelLoader|setCustomMeshDefinition|(Lnet/minecraft/item/Item;Lnet/minecraft/client/renderer/ItemMeshDefinition;)V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3164|3168|item|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|item
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3174|3192|ItemMeshDefinition|class|net.minecraft.client.renderer.ItemMeshDefinition|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3279|3284|event|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3197|3205|Override|class|java.lang.Override|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3209|3217|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3218|3222|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3223|3229|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3245|3259|registerModels|method|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3260|3278|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3291|3302|ModelBakery|class|net.minecraft.client.renderer.block.model.ModelBakery|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3303|3323|registerItemVariants|method|net.minecraft.client.renderer.block.model.ModelBakery|registerItemVariants|(Lnet/minecraft/item/Item;[Lnet/minecraft/util/ResourceLocation;)V
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3324|3328|item|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|item
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3334|3345|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3346|3369|setCustomMeshDefinition|method|net.minecraftforge.client.model.ModelLoader|setCustomMeshDefinition|(Lnet/minecraft/item/Item;Lnet/minecraft/client/renderer/ItemMeshDefinition;)V
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3370|3374|item|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|item
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3380|3398|ItemMeshDefinition|class|net.minecraft.client.renderer.ItemMeshDefinition|false
       Anon Class Start: mc.beltium.blackoniummod.block.BlockBlackoniumfluid$2
          Method Start: getModelLocation(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3271|3276|stack|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$2|getModelLocation|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;|stack|0
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3202|3210|Override|class|java.lang.Override|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3222|3243|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3244|3260|getModelLocation|method|net.minecraft.client.renderer.ItemMeshDefinition|getModelLocation|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3261|3270|ItemStack|class|net.minecraft.item.ItemStack|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3296|3317|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3477|3482|stack|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$2|getModelLocation|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;|stack|0
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3408|3416|Override|class|java.lang.Override|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3428|3449|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3450|3466|getModelLocation|method|net.minecraft.client.renderer.ItemMeshDefinition|getModelLocation|(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3467|3476|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3502|3523|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
          Method End: getModelLocation(Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
       Anon Class End: mc.beltium.blackoniummod.block.BlockBlackoniumfluid$2
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3387|3398|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3399|3419|setCustomStateMapper|method|net.minecraftforge.client.model.ModelLoader|setCustomStateMapper|(Lnet/minecraft/block/Block;Lnet/minecraft/client/renderer/block/statemap/IStateMapper;)V
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3420|3425|block|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|block
-      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3431|3446|StateMapperBase|class|net.minecraft.client.renderer.block.statemap.StateMapperBase|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3593|3604|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3605|3625|setCustomStateMapper|method|net.minecraftforge.client.model.ModelLoader|setCustomStateMapper|(Lnet/minecraft/block/Block;Lnet/minecraft/client/renderer/block/statemap/IStateMapper;)V
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3626|3631|block|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|block
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3637|3652|StateMapperBase|class|net.minecraft.client.renderer.block.statemap.StateMapperBase|false
       Anon Class Start: mc.beltium.blackoniummod.block.BlockBlackoniumfluid$3
          Method Start: getModelResourceLocation(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3538|3543|state|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$3|getModelResourceLocation|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;|state|0
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3456|3464|Override|class|java.lang.Override|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3479|3500|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3501|3525|getModelResourceLocation|method|net.minecraft.client.renderer.block.statemap.StateMapperBase|getModelResourceLocation|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3526|3537|IBlockState|class|net.minecraft.block.state.IBlockState|false
-            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3563|3584|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3744|3749|state|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid$3|getModelResourceLocation|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;|state|0
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3662|3670|Override|class|java.lang.Override|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3685|3706|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3707|3731|getModelResourceLocation|method|net.minecraft.client.renderer.block.statemap.StateMapperBase|getModelResourceLocation|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3732|3743|IBlockState|class|net.minecraft.block.state.IBlockState|false
+            @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3769|3790|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
          Method End: getModelResourceLocation(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;
       Anon Class End: mc.beltium.blackoniummod.block.BlockBlackoniumfluid$3
    Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+   Method Start: generateWorld(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3910|3916|random|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3922|3928|chunkX|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3934|3940|chunkZ|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3948|3953|world|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3959|3964|dimID|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|dimID|4
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3982|3984|cg|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cg|5
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4001|4003|cp|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|cp|6
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3866|3874|Override|class|java.lang.Override|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3889|3902|generateWorld|method|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3903|3909|Random|class|java.util.Random|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3942|3947|World|class|net.minecraft.world.World|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3966|3981|IChunkGenerator|class|net.minecraft.world.gen.IChunkGenerator|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|3986|4000|IChunkProvider|class|net.minecraft.world.chunk.IChunkProvider|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4052|4057|dimID|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|dimID|4
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4061|4084|WorldBlackoniumdiemsion|class|mc.beltium.blackoniummod.world.WorldBlackoniumdiemsion|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4085|4090|DIMID|field|mc.beltium.blackoniummod.world.WorldBlackoniumdiemsion|DIMID
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4172|4178|chunkX|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkX|1
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4181|4187|random|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4188|4195|nextInt|method|java.util.Random|nextInt|(I)I
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4216|4222|random|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4223|4230|nextInt|method|java.util.Random|nextInt|(I)I
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4248|4254|chunkZ|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|chunkZ|2
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4257|4263|random|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4264|4271|nextInt|method|java.util.Random|nextInt|(I)I
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4288|4301|WorldGenLakes|class|net.minecraft.world.gen.feature.WorldGenLakes|false
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4302|4307|block|field|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|block
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4309|4317|generate|method|net.minecraft.world.gen.feature.WorldGenerator|generate|(Lnet/minecraft/world/World;Ljava/util/Random;Lnet/minecraft/util/math/BlockPos;)Z
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4318|4323|world|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|world|3
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4325|4331|random|param|mc.beltium.blackoniummod.block.BlockBlackoniumfluid|generateWorld|(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V|random|0
+      @|mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java|4337|4345|BlockPos|class|net.minecraft.util.math.BlockPos|false
+   Method End: generateWorld(Ljava/util/Random;IILnet/minecraft/world/World;ILnet/minecraft/world/gen/IChunkGenerator;Lnet/minecraft/world/chunk/IChunkProvider;)V
 Class End  : mc.beltium.blackoniummod.block.BlockBlackoniumfluid
 endProcessing "mc/beltium/blackoniummod/block/BlockBlackoniumfluid.java"
 

@@ -11,6 +11,9 @@ import net.minecraftforge.fluids.BlockFluidClassic;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
+import net.minecraft.world.gen.feature.WorldGenLakes;
+import net.minecraft.world.gen.IChunkGenerator;
+import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.World;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
@@ -26,8 +29,11 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.Block;
 
+import mc.beltium.blackoniummod.world.WorldBlackoniumdiemsion;
 import mc.beltium.blackoniummod.procedure.ProcedureBlackoniumfluidMobplayerCollidesBlock;
 import mc.beltium.blackoniummod.ElementsBlackoniumMod;
+
+import java.util.Random;
 
 @ElementsBlackoniumMod.ModElement.Tag
 public class BlockBlackoniumfluid extends ElementsBlackoniumMod.ModElement {
@@ -38,9 +44,8 @@ public class BlockBlackoniumfluid extends ElementsBlackoniumMod.ModElement {
 	private Fluid fluid;
 	public BlockBlackoniumfluid(ElementsBlackoniumMod instance) {
 		super(instance, 2);
-		fluid = new Fluid("blackoniumfluid", new ResourceLocation("blackoniummod:blocks/blackonium_fluid_text"),
-				new ResourceLocation("blackoniummod:blocks/blackonium_fluid_text")).setLuminosity(0).setDensity(1000).setViscosity(1000)
-						.setGaseous(false);
+		fluid = new Fluid("blackoniumfluid", new ResourceLocation("blackoniummod:blocks/still"), new ResourceLocation("blackoniummod:blocks/flow"))
+				.setLuminosity(0).setDensity(12000).setViscosity(800).setGaseous(false);
 	}
 
 	@Override
@@ -84,5 +89,18 @@ public class BlockBlackoniumfluid extends ElementsBlackoniumMod.ModElement {
 				return new ModelResourceLocation("blackoniummod:blackoniumfluid", "blackoniumfluid");
 			}
 		});
+	}
+
+	@Override
+	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
+		boolean dimensionCriteria = false;
+		if (dimID == WorldBlackoniumdiemsion.DIMID)
+			dimensionCriteria = true;
+		if (!dimensionCriteria)
+			return;
+		int i = chunkX + random.nextInt(16) + 8;
+		int j = random.nextInt(256);
+		int k = chunkZ + random.nextInt(16) + 8;
+		new WorldGenLakes(block).generate(world, random, new BlockPos(i, j, k));
 	}
 }
