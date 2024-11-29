@@ -1,8 +1,8 @@
 {
   "id_map": {
     "GUI": 1,
-    "ENTITY": 3,
-    "DIMENSION": 1
+    "DIMENSION": 1,
+    "ENTITY": 3
   },
   "mod_elements": [
     {
@@ -751,7 +751,7 @@
   "workspaceSettings": {
     "modid": "blackoniummod",
     "modName": "Blackonium Mod",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "It\u0027s just a mod for learn mod coding.",
     "author": "Beltium",
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/blackonium-mod",
