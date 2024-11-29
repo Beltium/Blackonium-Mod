@@ -1,8 +1,8 @@
 Unsupposrted library path: C:\Users\mathi\MCreatorWorkspaces\beltiumsmod\build\classes\java\api
 Unsupposrted library path: C:\Users\mathi\MCreatorWorkspaces\beltiumsmod\build\resources\api
 Symbol range map extraction starting
-Processing 48 files
-startProcessing "mc/beltium/blackoniummod/BlackoniumMod.java" md5: 99fee6e479e8c15bc63d265eabd472cf
+Processing 52 files
+startProcessing "mc/beltium/blackoniummod/BlackoniumMod.java" md5: c39bcb0519145d6b3f76601c1263f6dc
 endProcessing "mc/beltium/blackoniummod/BlackoniumMod.java"
 
 startProcessing "mc/beltium/blackoniummod/BlackoniumModVariables.java" md5: 72cd16e73ed2e02de19af98a267831cb
@@ -65,6 +65,9 @@ endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumHammer.java"
 startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumString.java" md5: 6a3c15921de7a3ee024f67eaf10a5282
 endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumString.java"
 
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumSword.java" md5: ffee0fc5898d195d049c963e79bf4636
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumSword.java"
+
 startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumarmor.java" md5: cc723b19015dc35ac9de8f6291d03e74
 endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumarmor.java"
 
@@ -100,6 +103,15 @@ endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackonimiEntityDies.
 
 startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumAppleFoodEaten.java" md5: 7ba2ae7f22c6f2ca9fcdef6c71c74ad8
 endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumAppleFoodEaten.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java" md5: b32130e03e965da45c962e031b9062cb
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java" md5: dc090169641c0657e68c2ae19d8473d6
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java" md5: cd0c24ad24614e6436c837370a25ce44
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java"
 
 startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBodyTickEvent.java" md5: c8979e00133400160c76ff9307fa8d5a
 endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBodyTickEvent.java"

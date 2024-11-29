@@ -1,8 +1,8 @@
 Unsupposrted library path: C:\Users\mathi\MCreatorWorkspaces\beltiumsmod\build\classes\java\api
 Unsupposrted library path: C:\Users\mathi\MCreatorWorkspaces\beltiumsmod\build\resources\api
 Symbol range map extraction starting
-Processing 48 files
-startProcessing "mc/beltium/blackoniummod/BlackoniumMod.java" md5: 99fee6e479e8c15bc63d265eabd472cf
+Processing 52 files
+startProcessing "mc/beltium/blackoniummod/BlackoniumMod.java" md5: c39bcb0519145d6b3f76601c1263f6dc
 @|mc/beltium/blackoniummod/BlackoniumMod.java|746|770|mc.beltium.blackoniummod|package|mc.beltium.blackoniummod|(file)
 Class Start: mc.beltium.blackoniummod.BlackoniumMod
    @|mc/beltium/blackoniummod/BlackoniumMod.java|1974|1977|Mod|class|net.minecraftforge.fml.common.Mod|false
@@ -4057,6 +4057,204 @@ Class Start: mc.beltium.blackoniummod.item.ItemBlackoniumString
 Class End  : mc.beltium.blackoniummod.item.ItemBlackoniumString
 endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumString.java"
 
+startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumSword.java" md5: ffee0fc5898d195d049c963e79bf4636
+@|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|10|39|mc.beltium.blackoniummod.item|package|mc.beltium.blackoniummod.item|(file)
+Class Start: mc.beltium.blackoniummod.item.ItemBlackoniumSword
+   @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1443|1479|ElementsBlackoniumMod.ModElement.Tag|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement.Tag|false
+   @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1494|1513|ItemBlackoniumSword|class|mc.beltium.blackoniummod.item.ItemBlackoniumSword|false
+   @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1522|1554|ElementsBlackoniumMod.ModElement|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|false
+   @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1641|1645|Item|class|net.minecraft.item.Item|false
+   @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1560|1585|GameRegistry.ObjectHolder|class|net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder|false
+   @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1641|1645|Item|class|net.minecraft.item.Item|false
+   @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1646|1651|block|field|mc.beltium.blackoniummod.item.ItemBlackoniumSword|block|
+   Method Start: ItemBlackoniumSword(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1711|1719|instance|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword|ItemBlackoniumSword|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1669|1688|ItemBlackoniumSword|method|mc.beltium.blackoniummod.item.ItemBlackoniumSword|ItemBlackoniumSword|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1689|1710|ElementsBlackoniumMod|class|mc.beltium.blackoniummod.ElementsBlackoniumMod|false
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1732|1740|instance|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword|ItemBlackoniumSword|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
+   Method End: ItemBlackoniumSword(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+   Method Start: initElements()V
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1756|1764|Override|class|java.lang.Override|false
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1779|1791|initElements|method|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|initElements|()V
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1799|1807|elements|field|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|elements
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1808|1813|items|field|mc.beltium.blackoniummod.ElementsBlackoniumMod|items
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1814|1817|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1828|1837|ItemSword|class|net.minecraft.item.ItemSword|false
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1838|1848|EnumHelper|class|net.minecraftforge.common.util.EnumHelper|false
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1849|1864|addToolMaterial|method|net.minecraftforge.common.util.EnumHelper|addToolMaterial|(Ljava/lang/String;IIFFI)Lnet/minecraft/item/Item$ToolMaterial;
+      Anon Class Start: mc.beltium.blackoniummod.item.ItemBlackoniumSword$1
+         Method Start: getItemAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;)Lcom/google/common/collect/Multimap;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2015|2019|slot|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|getItemAttributeModifiers|(Lnet/minecraft/inventory/EntityEquipmentSlot;)Lcom/google/common/collect/Multimap;|slot|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1913|1921|Override|class|java.lang.Override|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1933|1941|Multimap|class|com.google.common.collect.Multimap|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1942|1948|String|class|java.lang.String|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1950|1967|AttributeModifier|class|net.minecraft.entity.ai.attributes.AttributeModifier|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1969|1994|getItemAttributeModifiers|method|net.minecraft.item.Item|getItemAttributeModifiers|(Lnet/minecraft/inventory/EntityEquipmentSlot;)Lcom/google/common/collect/Multimap;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|1995|2014|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2028|2036|Multimap|class|com.google.common.collect.Multimap|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2037|2043|String|class|java.lang.String|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2045|2062|AttributeModifier|class|net.minecraft.entity.ai.attributes.AttributeModifier|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2081|2106|getItemAttributeModifiers|method|net.minecraft.item.Item|getItemAttributeModifiers|(Lnet/minecraft/inventory/EntityEquipmentSlot;)Lcom/google/common/collect/Multimap;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2107|2111|slot|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|getItemAttributeModifiers|(Lnet/minecraft/inventory/EntityEquipmentSlot;)Lcom/google/common/collect/Multimap;|slot|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2123|2127|slot|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|getItemAttributeModifiers|(Lnet/minecraft/inventory/EntityEquipmentSlot;)Lcom/google/common/collect/Multimap;|slot|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2131|2150|EntityEquipmentSlot|class|net.minecraft.inventory.EntityEquipmentSlot|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2151|2159|MAINHAND|field|net.minecraft.inventory.EntityEquipmentSlot|MAINHAND
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2178|2181|put|method|com.google.common.collect.Multimap|put|(Ljava/lang/Object;Ljava/lang/Object;)Z
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2182|2205|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2206|2219|ATTACK_DAMAGE|field|net.minecraft.entity.SharedMonsterAttributes|ATTACK_DAMAGE
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2220|2227|getName|method|net.minecraft.entity.ai.attributes.IAttribute|getName|()Ljava/lang/String;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2243|2260|AttributeModifier|class|net.minecraft.entity.ai.attributes.AttributeModifier|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2261|2283|ATTACK_DAMAGE_MODIFIER|field|net.minecraft.item.Item|ATTACK_DAMAGE_MODIFIER
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2318|2333|getAttackDamage|method|net.minecraft.item.ItemSword|getAttackDamage|()F
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2357|2360|put|method|com.google.common.collect.Multimap|put|(Ljava/lang/Object;Ljava/lang/Object;)Z
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2361|2384|SharedMonsterAttributes|class|net.minecraft.entity.SharedMonsterAttributes|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2385|2397|ATTACK_SPEED|field|net.minecraft.entity.SharedMonsterAttributes|ATTACK_SPEED
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2398|2405|getName|method|net.minecraft.entity.ai.attributes.IAttribute|getName|()Ljava/lang/String;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2421|2438|AttributeModifier|class|net.minecraft.entity.ai.attributes.AttributeModifier|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2439|2460|ATTACK_SPEED_MODIFIER|field|net.minecraft.item.Item|ATTACK_SPEED_MODIFIER
+         Method End: getItemAttributeModifiers(Lnet/minecraft/inventory/EntityEquipmentSlot;)Lcom/google/common/collect/Multimap;
+         Method Start: getToolClasses(Lnet/minecraft/item/ItemStack;)Ljava/util/Set;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2577|2582|stack|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|getToolClasses|(Lnet/minecraft/item/ItemStack;)Ljava/util/Set;|stack|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2540|2543|Set|class|java.util.Set|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2544|2550|String|class|java.lang.String|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2552|2566|getToolClasses|method|net.minecraft.item.Item|getToolClasses|(Lnet/minecraft/item/ItemStack;)Ljava/util/Set;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2567|2576|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2591|2598|HashMap|class|java.util.HashMap|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2599|2605|String|class|java.lang.String|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2607|2614|Integer|class|java.lang.Integer|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2626|2633|HashMap|class|java.util.HashMap|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2634|2640|String|class|java.lang.String|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2642|2649|Integer|class|java.lang.Integer|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2663|2666|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2696|2702|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+         Method End: getToolClasses(Lnet/minecraft/item/ItemStack;)Ljava/util/Set;
+         Method Start: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2786|2791|world|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2806|2812|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2823|2827|hand|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|hand|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2719|2727|Override|class|java.lang.Override|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2739|2751|ActionResult|class|net.minecraft.util.ActionResult|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2752|2761|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2763|2779|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2780|2785|World|class|net.minecraft.world.World|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2793|2805|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2814|2822|EnumHand|class|net.minecraft.util.EnumHand|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2836|2848|ActionResult|class|net.minecraft.util.ActionResult|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2849|2858|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2875|2891|onItemRightClick|method|net.minecraft.item.Item|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2892|2897|world|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|world|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2899|2905|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2907|2911|hand|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|hand|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2919|2928|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2948|2957|getResult|method|net.minecraft.util.ActionResult|getResult|()Ljava/lang/Object;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2980|2986|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|2987|2991|posX|field|net.minecraft.entity.Entity|posX
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3012|3018|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3019|3023|posY|field|net.minecraft.entity.Entity|posY
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3044|3050|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3051|3055|posZ|field|net.minecraft.entity.Entity|posZ
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3070|3087|java.util.HashMap|class|java.util.HashMap|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3088|3094|String|class|java.lang.String|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3096|3102|Object|class|java.lang.Object|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3125|3142|java.util.HashMap|class|java.util.HashMap|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3169|3172|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3183|3189|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onItemRightClick|(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3198|3239|ProcedureBlackoniumSwordRightClickedInAir|class|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3240|3256|executeProcedure|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V
+         Method End: onItemRightClick(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;
+         Method Start: hitEntity(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3362|3371|itemstack|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|itemstack|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3390|3396|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3415|3422|entity2|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|entity2|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3314|3322|Override|class|java.lang.Override|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3342|3351|hitEntity|method|net.minecraft.item.Item|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3352|3361|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3373|3389|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3398|3414|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3437|3446|hitEntity|method|net.minecraft.item.Item|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3447|3456|itemstack|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|itemstack|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3458|3464|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3466|3473|entity2|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|entity2|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3495|3501|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3502|3506|posX|field|net.minecraft.entity.Entity|posX
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3527|3533|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3534|3538|posY|field|net.minecraft.entity.Entity|posY
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3559|3565|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3566|3570|posZ|field|net.minecraft.entity.Entity|posZ
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3577|3582|World|class|net.minecraft.world.World|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3591|3597|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3598|3603|world|field|net.minecraft.entity.Entity|world
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3618|3635|java.util.HashMap|class|java.util.HashMap|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3636|3642|String|class|java.lang.String|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3644|3650|Object|class|java.lang.Object|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3673|3690|java.util.HashMap|class|java.util.HashMap|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3717|3720|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3731|3737|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|hitEntity|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z|entity|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3746|3786|ProcedureBlackoniumSwordMobIsHitWithTool|class|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3787|3803|executeProcedure|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool|executeProcedure|(Ljava/util/HashMap;)V
+         Method End: hitEntity(Lnet/minecraft/item/ItemStack;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/EntityLivingBase;)Z
+         Method Start: onUpdate(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3903|3912|itemstack|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|itemstack|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3920|3925|world|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|world|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3934|3940|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|entity|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3946|3950|slot|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|slot|3
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3960|3964|par5|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|par5|4
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3859|3867|Override|class|java.lang.Override|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3884|3892|onUpdate|method|net.minecraft.item.Item|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3893|3902|ItemStack|class|net.minecraft.item.ItemStack|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3914|3919|World|class|net.minecraft.world.World|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3927|3933|Entity|class|net.minecraft.entity.Entity|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3979|3987|onUpdate|method|net.minecraft.item.Item|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3988|3997|itemstack|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|itemstack|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|3999|4004|world|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|world|1
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4006|4012|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|entity|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4014|4018|slot|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|slot|3
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4020|4024|par5|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|par5|4
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4046|4052|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|entity|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4053|4057|posX|field|net.minecraft.entity.Entity|posX
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4078|4084|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|entity|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4085|4089|posY|field|net.minecraft.entity.Entity|posY
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4110|4116|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|entity|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4117|4121|posZ|field|net.minecraft.entity.Entity|posZ
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4132|4138|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|entity|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4150|4166|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4172|4188|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4190|4196|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|entity|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4198|4217|getHeldItemMainhand|method|net.minecraft.entity.EntityLivingBase|getHeldItemMainhand|()Lnet/minecraft/item/ItemStack;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4220|4226|equals|method|java.lang.Object|equals|(Ljava/lang/Object;)Z
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4227|4236|itemstack|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|itemstack|0
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4247|4264|java.util.HashMap|class|java.util.HashMap|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4265|4271|String|class|java.lang.String|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4273|4279|Object|class|java.lang.Object|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4302|4319|java.util.HashMap|class|java.util.HashMap|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4346|4349|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4360|4366|entity|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword$1|onUpdate|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V|entity|2
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4375|4413|ProcedureBlackoniumSwordToolInHandTick|class|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick|false
+            @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4414|4430|executeProcedure|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick|executeProcedure|(Ljava/util/HashMap;)V
+         Method End: onUpdate(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/Entity;IZ)V
+      Anon Class End: mc.beltium.blackoniummod.item.ItemBlackoniumSword$1
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4466|4484|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4504|4519|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4539|4553|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4554|4568|TabBeltiumsMod|class|mc.beltium.blackoniummod.creativetab.TabBeltiumsMod|false
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4569|4572|tab|field|mc.beltium.blackoniummod.creativetab.TabBeltiumsMod|tab
+   Method End: initElements()V
+   Method Start: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4667|4672|event|param|mc.beltium.blackoniummod.item.ItemBlackoniumSword|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V|event|0
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4585|4593|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly|false
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4594|4598|Side|class|net.minecraftforge.fml.relauncher.Side|false
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4599|4605|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4610|4618|Override|class|java.lang.Override|false
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4633|4647|registerModels|method|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|registerModels|(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4648|4666|ModelRegistryEvent|class|net.minecraftforge.client.event.ModelRegistryEvent|false
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4679|4690|ModelLoader|class|net.minecraftforge.client.model.ModelLoader|false
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4691|4721|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4722|4727|block|field|mc.beltium.blackoniummod.item.ItemBlackoniumSword|block
+      @|mc/beltium/blackoniummod/item/ItemBlackoniumSword.java|4736|4757|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation|false
+   Method End: registerModels(Lnet/minecraftforge/client/event/ModelRegistryEvent;)V
+Class End  : mc.beltium.blackoniummod.item.ItemBlackoniumSword
+endProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumSword.java"
+
 startProcessing "mc/beltium/blackoniummod/item/ItemBlackoniumarmor.java" md5: cc723b19015dc35ac9de8f6291d03e74
 @|mc/beltium/blackoniummod/item/ItemBlackoniumarmor.java|10|39|mc.beltium.blackoniummod.item|package|mc.beltium.blackoniummod.item|(file)
 Class Start: mc.beltium.blackoniummod.item.ItemBlackoniumarmor
@@ -5384,6 +5582,118 @@ Class Start: mc.beltium.blackoniummod.procedure.ProcedureBlackoniumAppleFoodEate
    Method End: executeProcedure(Ljava/util/HashMap;)V
 Class End  : mc.beltium.blackoniummod.procedure.ProcedureBlackoniumAppleFoodEaten
 endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumAppleFoodEaten.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java" md5: b32130e03e965da45c962e031b9062cb
+@|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|8|42|mc.beltium.blackoniummod.procedure|package|mc.beltium.blackoniummod.procedure|(file)
+Class Start: mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool
+   @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|274|310|ElementsBlackoniumMod.ModElement.Tag|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement.Tag|false
+   @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|325|365|ProcedureBlackoniumSwordMobIsHitWithTool|class|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool|false
+   @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|374|406|ElementsBlackoniumMod.ModElement|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|false
+   Method Start: ProcedureBlackoniumSwordMobIsHitWithTool(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|481|489|instance|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool|ProcedureBlackoniumSwordMobIsHitWithTool|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|418|458|ProcedureBlackoniumSwordMobIsHitWithTool|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool|ProcedureBlackoniumSwordMobIsHitWithTool|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|459|480|ElementsBlackoniumMod|class|mc.beltium.blackoniummod.ElementsBlackoniumMod|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|502|510|instance|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool|ProcedureBlackoniumSwordMobIsHitWithTool|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
+   Method End: ProcedureBlackoniumSwordMobIsHitWithTool(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+   Method Start: executeProcedure(Ljava/util/HashMap;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|595|607|dependencies|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|544|560|executeProcedure|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool|executeProcedure|(Ljava/util/HashMap;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|561|578|java.util.HashMap|class|java.util.HashMap|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|579|585|String|class|java.lang.String|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|587|593|Object|class|java.lang.Object|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|618|630|dependencies|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|631|634|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|660|666|System|class|java.lang.System|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|667|670|err|field|java.lang.System|err
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|671|678|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|783|789|Entity|class|net.minecraft.entity.Entity|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|800|806|Entity|class|net.minecraft.entity.Entity|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|808|820|dependencies|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|821|824|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|861|877|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|885|901|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|911|926|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|931|943|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|944|954|MobEffects|class|net.minecraft.init.MobEffects|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java|955|961|POISON|field|net.minecraft.init.MobEffects|POISON
+   Method End: executeProcedure(Ljava/util/HashMap;)V
+Class End  : mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordMobIsHitWithTool
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordMobIsHitWithTool.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java" md5: dc090169641c0657e68c2ae19d8473d6
+@|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|8|42|mc.beltium.blackoniummod.procedure|package|mc.beltium.blackoniummod.procedure|(file)
+Class Start: mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir
+   @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|299|335|ElementsBlackoniumMod.ModElement.Tag|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement.Tag|false
+   @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|350|391|ProcedureBlackoniumSwordRightClickedInAir|class|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir|false
+   @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|400|432|ElementsBlackoniumMod.ModElement|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|false
+   Method Start: ProcedureBlackoniumSwordRightClickedInAir(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|508|516|instance|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir|ProcedureBlackoniumSwordRightClickedInAir|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|444|485|ProcedureBlackoniumSwordRightClickedInAir|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir|ProcedureBlackoniumSwordRightClickedInAir|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|486|507|ElementsBlackoniumMod|class|mc.beltium.blackoniummod.ElementsBlackoniumMod|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|529|537|instance|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir|ProcedureBlackoniumSwordRightClickedInAir|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
+   Method End: ProcedureBlackoniumSwordRightClickedInAir(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+   Method Start: executeProcedure(Ljava/util/HashMap;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|622|634|dependencies|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|571|587|executeProcedure|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|588|605|java.util.HashMap|class|java.util.HashMap|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|606|612|String|class|java.lang.String|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|614|620|Object|class|java.lang.Object|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|645|657|dependencies|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|658|661|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|687|693|System|class|java.lang.System|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|694|697|err|field|java.lang.System|err
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|698|705|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|811|817|Entity|class|net.minecraft.entity.Entity|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|828|834|Entity|class|net.minecraft.entity.Entity|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|836|848|dependencies|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|849|852|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|889|905|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|913|929|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|939|954|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|959|971|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|972|994|PotionBlackoniumpotion|class|mc.beltium.blackoniummod.potion.PotionBlackoniumpotion|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|995|1001|potion|field|mc.beltium.blackoniummod.potion.PotionBlackoniumpotion|potion
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java|1052|1060|setInWeb|method|net.minecraft.entity.Entity|setInWeb|()V
+   Method End: executeProcedure(Ljava/util/HashMap;)V
+Class End  : mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordRightClickedInAir
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordRightClickedInAir.java"
+
+startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java" md5: cd0c24ad24614e6436c837370a25ce44
+@|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|8|42|mc.beltium.blackoniummod.procedure|package|mc.beltium.blackoniummod.procedure|(file)
+Class Start: mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick
+   @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|274|310|ElementsBlackoniumMod.ModElement.Tag|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement.Tag|false
+   @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|325|363|ProcedureBlackoniumSwordToolInHandTick|class|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick|false
+   @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|372|404|ElementsBlackoniumMod.ModElement|class|mc.beltium.blackoniummod.ElementsBlackoniumMod.ModElement|false
+   Method Start: ProcedureBlackoniumSwordToolInHandTick(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|477|485|instance|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick|ProcedureBlackoniumSwordToolInHandTick|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|416|454|ProcedureBlackoniumSwordToolInHandTick|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick|ProcedureBlackoniumSwordToolInHandTick|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|455|476|ElementsBlackoniumMod|class|mc.beltium.blackoniummod.ElementsBlackoniumMod|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|498|506|instance|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick|ProcedureBlackoniumSwordToolInHandTick|(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V|instance|0
+   Method End: ProcedureBlackoniumSwordToolInHandTick(Lmc/beltium/blackoniummod/ElementsBlackoniumMod;)V
+   Method Start: executeProcedure(Ljava/util/HashMap;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|591|603|dependencies|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|540|556|executeProcedure|method|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick|executeProcedure|(Ljava/util/HashMap;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|557|574|java.util.HashMap|class|java.util.HashMap|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|575|581|String|class|java.lang.String|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|583|589|Object|class|java.lang.Object|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|614|626|dependencies|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|627|630|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|656|662|System|class|java.lang.System|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|663|666|err|field|java.lang.System|err
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|667|674|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|777|783|Entity|class|net.minecraft.entity.Entity|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|794|800|Entity|class|net.minecraft.entity.Entity|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|802|814|dependencies|param|mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick|executeProcedure|(Ljava/util/HashMap;)V|dependencies|0
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|815|818|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|855|871|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|879|895|EntityLivingBase|class|net.minecraft.entity.EntityLivingBase|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|905|920|addPotionEffect|method|net.minecraft.entity.EntityLivingBase|addPotionEffect|(Lnet/minecraft/potion/PotionEffect;)V
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|925|937|PotionEffect|class|net.minecraft.potion.PotionEffect|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|938|948|MobEffects|class|net.minecraft.init.MobEffects|false
+      @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java|949|957|STRENGTH|field|net.minecraft.init.MobEffects|STRENGTH
+   Method End: executeProcedure(Ljava/util/HashMap;)V
+Class End  : mc.beltium.blackoniummod.procedure.ProcedureBlackoniumSwordToolInHandTick
+endProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumSwordToolInHandTick.java"
 
 startProcessing "mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBodyTickEvent.java" md5: c8979e00133400160c76ff9307fa8d5a
 @|mc/beltium/blackoniummod/procedure/ProcedureBlackoniumarmorBodyTickEvent.java|8|42|mc.beltium.blackoniummod.procedure|package|mc.beltium.blackoniummod.procedure|(file)

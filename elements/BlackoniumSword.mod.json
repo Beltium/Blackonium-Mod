@@ -1,0 +1,36 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "blackonium_sword",
+    "customModelName": "Normal",
+    "name": "Blackonium Sword",
+    "creativeTab": {
+      "value": "CUSTOM:BeltiumsMod"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 8.0,
+    "attackSpeed": 2.2,
+    "enchantability": 4,
+    "damageVsEntity": 100.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Blackoniumingot"
+      }
+    ],
+    "onRightClickedInAir": {
+      "name": "BlackoniumSwordRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "BlackoniumSwordMobIsHitWithTool"
+    },
+    "onItemInUseTick": {
+      "name": "BlackoniumSwordToolInHandTick"
+    }
+  }
+}

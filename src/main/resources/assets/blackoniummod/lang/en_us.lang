@@ -22,6 +22,7 @@ item.blackoniumarmorboots.name=Blackonium Boots
 lingering_potion.effect.blackoniumpotion=Lingering Blackonium Potion
 tipped_arrow.effect.blackoniumpotion=Arrow of Blackonium Potion
 item.blackoniumhammer.name=Blackonium Hammer
+item.blackoniumsword.name=Blackonium Sword
 item.blackoniumarmorhelmet.name=Blackonium Helmet
 entity.blackonimi.name=Blackomini
 tile.blackoniumore.name=Blackonium ore
