@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = BlackoniumMod.MODID, version = BlackoniumMod.VERSION)
 public class BlackoniumMod {
 	public static final String MODID = "blackoniummod";
-	public static final String VERSION = "1.4.0";
+	public static final String VERSION = "1.5.0";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("blackoniummod:a");
 	@SidedProxy(clientSide = "mc.beltium.blackoniummod.ClientProxyBlackoniumMod", serverSide = "mc.beltium.blackoniummod.ServerProxyBlackoniumMod")
 	public static IProxyBlackoniumMod proxy;

@@ -1,8 +1,8 @@
 {
   "id_map": {
+    "ENTITY": 3,
     "GUI": 1,
-    "DIMENSION": 1,
-    "ENTITY": 3
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
@@ -757,6 +757,7 @@
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/blackonium-mod",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "blackonium_logo256",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
