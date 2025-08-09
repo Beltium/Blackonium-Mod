@@ -1,8 +1,8 @@
 {
   "id_map": {
+    "ENTITY": 3,
     "GUI": 1,
-    "DIMENSION": 1,
-    "ENTITY": 3
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
@@ -703,6 +703,78 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "BlackoniumSwordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackoniumSwordMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackoniumSword",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackoniumSwordRec",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlackoniumSwordToolInHandTick",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SimplefromDouble",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -739,6 +811,7 @@
       "lingering_potion.effect.blackoniumpotion": "Lingering Blackonium Potion",
       "tipped_arrow.effect.blackoniumpotion": "Arrow of Blackonium Potion",
       "item.blackoniumhammer.name": "Blackonium Hammer",
+      "item.blackoniumsword.name": "Blackonium Sword",
       "item.blackoniumarmorhelmet.name": "Blackonium Helmet",
       "entity.blackonimi.name": "Blackomini",
       "tile.blackoniumore.name": "Blackonium ore",
@@ -757,6 +830,7 @@
     "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/blackonium-mod",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "blackonium_logo256",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],

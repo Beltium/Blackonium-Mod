@@ -1,634 +1,634 @@
-[21:45:53] [main/INFO] [GradleStart]: Extra: []
-[21:45:53] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/mathi/.mcreator/gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[21:45:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:45:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:45:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[21:45:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[21:45:53] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
-[21:45:53] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_232, running on Windows 10:amd64:10.0, installed at C:\Program Files\Pylo\MCreator\jdk\jre
-[21:45:53] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[21:45:53] [main/ERROR] [FML]: Full: C:\Users\mathi\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[21:45:53] [main/ERROR] [FML]: Trimmed: c:/users/mathi/.mcreator/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[21:45:53] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[21:45:53] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[21:45:54] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[21:45:54] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[21:45:54] [main/INFO] [FML]: Searching C:\Users\mathi\MCreatorWorkspaces\beltiumsmod\run\.\mods for mods
-[21:45:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[21:45:54] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[21:45:54] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[21:45:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:45:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[21:45:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[21:45:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:45:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[21:45:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:45:55] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[21:45:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[21:45:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[21:45:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[21:45:55] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[21:45:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[21:45:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[21:45:55] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[21:45:55] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player78
-[21:45:57] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[21:45:57] [main/INFO] [FML]: -- System Details --
+[12:46:54] [main/INFO] [GradleStart]: Extra: []
+[12:46:54] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/mathi/.mcreator/gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[12:46:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:46:54] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:46:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:46:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:46:54] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[12:46:54] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_232, running on Windows 10:amd64:10.0, installed at C:\Program Files\Pylo\MCreator\jdk\jre
+[12:46:54] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[12:46:54] [main/ERROR] [FML]: Full: C:\Users\mathi\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[12:46:54] [main/ERROR] [FML]: Trimmed: c:/users/mathi/.mcreator/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[12:46:54] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[12:46:54] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[12:46:54] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[12:46:54] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[12:46:54] [main/INFO] [FML]: Searching C:\Users\mathi\MCreatorWorkspaces\beltiumsmod\run\.\mods for mods
+[12:46:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:46:54] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[12:46:54] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[12:46:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:46:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:46:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[12:46:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:46:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:46:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:46:55] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[12:46:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:46:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[12:46:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[12:46:55] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[12:46:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:46:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[12:46:55] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[12:46:55] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player796
+[12:46:56] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[12:46:57] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_232, BellSoft
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), 
-	Memory: 437259992 bytes (417 MB) / 539492352 bytes (514 MB) up to 3758096384 bytes (3584 MB)
+	Memory: 450317920 bytes (429 MB) / 545259520 bytes (520 MB) up to 3758096384 bytes (3584 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel' Version: '4.6.0 - Build 31.0.101.5333' Renderer: 'Intel(R) UHD Graphics'
-[21:45:57] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
-[21:45:57] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[21:45:58] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[21:45:58] [main/INFO] [FML]: Searching C:\Users\mathi\MCreatorWorkspaces\beltiumsmod\run\.\mods for mods
-[21:45:59] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[21:45:59] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, blackoniummod, jei] at CLIENT
-[21:45:59] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, blackoniummod, jei] at SERVER
-[21:45:59] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Blackonium Mod, FMLFileResourcePack:Just Enough Items
-[21:46:00] [main/INFO] [FML]: Processing ObjectHolder annotations
-[21:46:00] [main/INFO] [FML]: Found 1198 ObjectHolder annotations
-[21:46:00] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[21:46:00] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 98691500 nanos
-[21:46:00] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[21:46:00] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[21:46:00] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[21:46:00] [main/INFO] [FML]: OBJLoader: Domain blackoniummod has been added.
-[21:46:00] [main/INFO] [FML]: Applying holder lookups
-[21:46:00] [main/INFO] [FML]: Holder lookups applied
-[21:46:00] [main/INFO] [FML]: Applying holder lookups
-[21:46:00] [main/INFO] [FML]: Holder lookups applied
-[21:46:00] [main/INFO] [FML]: Applying holder lookups
-[21:46:00] [main/INFO] [FML]: Holder lookups applied
-[21:46:00] [main/INFO] [FML]: Applying holder lookups
-[21:46:00] [main/INFO] [FML]: Holder lookups applied
-[21:46:00] [main/INFO] [FML]: Injecting itemstacks
-[21:46:00] [main/INFO] [FML]: Itemstack injection complete
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:ambient.cave
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.destroy
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.land
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.use
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.brewing_stand.brew
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.chest.close
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.chest.locked
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.chest.open
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.chorus_flower.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.chorus_flower.grow
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.cloth.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.cloth.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.cloth.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.cloth.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.cloth.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.comparator.click
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.dispenser.dispense
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.dispenser.fail
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.dispenser.launch
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.enchantment_table.use
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.end_gateway.spawn
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.end_portal.spawn
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.end_portal_frame.fill
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.enderchest.close
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.enderchest.open
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.fence_gate.close
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.fence_gate.open
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.fire.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.fire.extinguish
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.furnace.fire_crackle
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.glass.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.glass.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.glass.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.glass.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.glass.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.grass.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.grass.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.grass.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.grass.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.grass.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.gravel.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.gravel.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.gravel.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.gravel.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.gravel.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.iron_door.close
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.iron_door.open
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.iron_trapdoor.close
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.iron_trapdoor.open
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.ladder.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.ladder.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.ladder.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.ladder.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.ladder.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.lava.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.lava.extinguish
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.lava.pop
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.lever.click
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal_pressureplate.click_off
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal_pressureplate.click_on
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.basedrum
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.bass
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.bell
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.chime
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.flute
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.guitar
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.harp
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.hat
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.pling
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.snare
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.xylophone
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.piston.contract
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.piston.extend
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.portal.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.portal.travel
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.portal.trigger
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.redstone_torch.burnout
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.sand.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.sand.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.sand.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.sand.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.sand.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.shulker_box.close
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.shulker_box.open
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.slime.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.slime.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.slime.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.slime.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.slime.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.snow.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.snow.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.snow.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.snow.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.snow.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone_button.click_off
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone_button.click_on
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone_pressureplate.click_off
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone_pressureplate.click_on
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.tripwire.attach
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.tripwire.click_off
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.tripwire.click_on
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.tripwire.detach
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.water.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.waterlily.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood_button.click_off
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood_button.click_on
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood_pressureplate.click_off
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood_pressureplate.click_on
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wooden_door.close
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wooden_door.open
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wooden_trapdoor.close
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wooden_trapdoor.open
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:enchant.thorns.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.armorstand.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.armorstand.fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.armorstand.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.armorstand.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.arrow.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.arrow.hit_player
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.arrow.shoot
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bat.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bat.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bat.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bat.loop
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bat.takeoff
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.blaze.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.blaze.burn
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.blaze.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.blaze.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.blaze.shoot
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.boat.paddle_land
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.boat.paddle_water
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bobber.retrieve
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bobber.splash
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bobber.throw
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.hiss
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.purr
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.purreow
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.chicken.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.chicken.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.chicken.egg
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.chicken.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.chicken.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cow.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cow.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cow.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cow.milk
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cow.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.creeper.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.creeper.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.creeper.primed
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.donkey.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.donkey.angry
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.donkey.chest
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.donkey.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.donkey.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.egg.throw
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.ambient_land
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.curse
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.death_land
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.flop
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.hurt_land
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.flap
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.growl
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.shoot
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon_fireball.explode
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endereye.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endereye.launch
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.scream
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.stare
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.teleport
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermite.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermite.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermite.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermite.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderpearl.throw
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_fangs.attack
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.cast_spell
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.prepare_attack
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.prepare_summon
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.prepare_wololo
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.experience_bottle.throw
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.experience_orb.pickup
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.blast
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.blast_far
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.large_blast
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.large_blast_far
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.launch
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.shoot
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.twinkle
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.twinkle_far
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.big_fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.burn
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.drink
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.eat
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.explode
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.extinguish_fire
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.small_fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.splash
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.swim
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.scream
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.shoot
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.warn
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.ambient_land
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.attack
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.death_land
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.flop
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.hurt_land
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.angry
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.armor
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.breathe
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.eat
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.gallop
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.jump
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.land
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.saddle
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.step_wood
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.big_fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.small_fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.splash
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.swim
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.husk.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.husk.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.husk.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.husk.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.cast_spell
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.mirror_move
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.prepare_blindness
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.prepare_mirror
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.irongolem.attack
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.irongolem.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.irongolem.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.irongolem.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.item.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.item.pickup
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.itemframe.add_item
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.itemframe.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.itemframe.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.itemframe.remove_item
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.itemframe.rotate_item
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.leashknot.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.leashknot.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.lightning.impact
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.lightning.thunder
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.lingeringpotion.throw
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.angry
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.chest
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.eat
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.spit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.swag
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.magmacube.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.magmacube.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.magmacube.jump
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.magmacube.squish
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.minecart.inside
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.minecart.riding
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.mooshroom.shear
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.mule.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.mule.chest
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.mule.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.mule.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.painting.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.painting.place
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.eat
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.fly
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.blaze
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.creeper
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.elder_guardian
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.enderdragon
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.enderman
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.endermite
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.evocation_illager
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.ghast
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.husk
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.illusion_illager
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.magmacube
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.polar_bear
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.shulker
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.silverfish
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.skeleton
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.slime
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.spider
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.stray
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.vex
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.vindication_illager
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.witch
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.wither
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.wither_skeleton
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.wolf
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.zombie
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.zombie_pigman
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.zombie_villager
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.pig.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.pig.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.pig.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.pig.saddle
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.pig.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.crit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.knockback
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.nodamage
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.strong
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.sweep
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.weak
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.big_fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.breath
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.burp
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.hurt_drown
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.hurt_on_fire
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.levelup
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.small_fall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.splash
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.swim
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.baby_ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.warning
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.rabbit.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.rabbit.attack
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.rabbit.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.rabbit.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.rabbit.jump
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.sheep.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.sheep.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.sheep.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.sheep.shear
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.sheep.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.close
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.hurt_closed
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.open
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.shoot
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.teleport
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker_bullet.hit
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker_bullet.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.silverfish.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.silverfish.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.silverfish.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.silverfish.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton.shoot
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton_horse.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton_horse.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton_horse.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.slime.attack
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.slime.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.slime.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.slime.jump
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.slime.squish
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_magmacube.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_magmacube.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_magmacube.squish
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_slime.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_slime.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_slime.jump
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_slime.squish
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.snowball.throw
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.snowman.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.snowman.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.snowman.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.snowman.shoot
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.spider.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.spider.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.spider.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.spider.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.splash_potion.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.splash_potion.throw
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.squid.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.squid.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.squid.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.stray.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.stray.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.stray.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.stray.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.tnt.primed
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vex.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vex.charge
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vex.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vex.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.no
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.trading
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.yes
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vindication_illager.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vindication_illager.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vindication_illager.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.witch.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.witch.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.witch.drink
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.witch.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.witch.throw
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.break_block
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.shoot
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.spawn
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither_skeleton.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither_skeleton.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither_skeleton.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither_skeleton.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.growl
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.howl
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.pant
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.shake
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.whine
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.attack_door_wood
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.attack_iron_door
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.break_door_wood
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.infect
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_horse.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_horse.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_horse.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_pig.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_pig.angry
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_pig.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_pig.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.ambient
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.converted
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.cure
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.death
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.hurt
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.step
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_chain
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_diamond
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_elytra
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_generic
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_gold
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_iron
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_leather
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bottle.empty
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bottle.fill
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bottle.fill_dragonbreath
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bucket.empty
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bucket.empty_lava
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bucket.fill
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bucket.fill_lava
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.chorus_fruit.teleport
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.elytra.flying
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.firecharge.use
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.flintandsteel.use
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.hoe.till
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.shield.block
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.shield.break
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.shovel.flatten
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.totem.use
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.creative
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.credits
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.dragon
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.end
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.game
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.menu
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.nether
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.11
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.13
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.blocks
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.cat
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.chirp
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.far
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.mall
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.mellohi
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.stal
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.strad
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.wait
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.ward
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:ui.button.click
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:ui.toast.in
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:ui.toast.out
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:ui.toast.challenge_complete
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:weather.rain
-[21:46:00] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:weather.rain.above
-[21:46:00] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[21:46:01] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[21:46:01] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:46:01] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
-[21:46:01] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[21:46:01] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[21:46:03] [main/INFO] [FML]: Max texture size: 16384
-[21:46:04] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[21:46:05] [main/ERROR] [FML]: Parsing error loading recipe blackoniummod:blackoniumslabrecette
+[12:46:57] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[12:46:57] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[12:46:57] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[12:46:57] [main/INFO] [FML]: Searching C:\Users\mathi\MCreatorWorkspaces\beltiumsmod\run\.\mods for mods
+[12:46:58] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[12:46:58] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, blackoniummod, jei] at CLIENT
+[12:46:58] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, blackoniummod, jei] at SERVER
+[12:46:58] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Blackonium Mod, FMLFileResourcePack:Just Enough Items
+[12:46:58] [main/INFO] [FML]: Processing ObjectHolder annotations
+[12:46:58] [main/INFO] [FML]: Found 1198 ObjectHolder annotations
+[12:46:58] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[12:46:58] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[12:46:58] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[12:46:58] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[12:46:58] [main/INFO] [FML]: OBJLoader: Domain blackoniummod has been added.
+[12:46:58] [main/INFO] [FML]: Applying holder lookups
+[12:46:58] [main/INFO] [FML]: Holder lookups applied
+[12:46:58] [main/INFO] [FML]: Applying holder lookups
+[12:46:58] [main/INFO] [FML]: Holder lookups applied
+[12:46:58] [main/INFO] [FML]: Applying holder lookups
+[12:46:58] [main/INFO] [FML]: Holder lookups applied
+[12:46:58] [main/INFO] [FML]: Applying holder lookups
+[12:46:58] [main/INFO] [FML]: Holder lookups applied
+[12:46:58] [main/INFO] [FML]: Injecting itemstacks
+[12:46:58] [main/INFO] [FML]: Itemstack injection complete
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:ambient.cave
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.destroy
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.land
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.anvil.use
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.brewing_stand.brew
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.chest.close
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.chest.locked
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.chest.open
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.chorus_flower.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.chorus_flower.grow
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.cloth.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.cloth.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.cloth.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.cloth.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.cloth.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.comparator.click
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.dispenser.dispense
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.dispenser.fail
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.dispenser.launch
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.enchantment_table.use
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.end_gateway.spawn
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.end_portal.spawn
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.end_portal_frame.fill
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.enderchest.close
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.enderchest.open
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.fence_gate.close
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.fence_gate.open
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.fire.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.fire.extinguish
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.furnace.fire_crackle
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.glass.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.glass.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.glass.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.glass.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.glass.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.grass.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.grass.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.grass.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.grass.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.grass.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.gravel.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.gravel.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.gravel.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.gravel.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.gravel.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.iron_door.close
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.iron_door.open
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.iron_trapdoor.close
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.iron_trapdoor.open
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.ladder.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.ladder.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.ladder.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.ladder.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.ladder.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.lava.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.lava.extinguish
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.lava.pop
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.lever.click
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal_pressureplate.click_off
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.metal_pressureplate.click_on
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.basedrum
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.bass
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.bell
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.chime
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.flute
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.guitar
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.harp
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.hat
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.pling
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.snare
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.note.xylophone
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.piston.contract
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.piston.extend
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.portal.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.portal.travel
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.portal.trigger
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.redstone_torch.burnout
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.sand.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.sand.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.sand.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.sand.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.sand.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.shulker_box.close
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.shulker_box.open
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.slime.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.slime.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.slime.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.slime.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.slime.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.snow.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.snow.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.snow.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.snow.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.snow.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone_button.click_off
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone_button.click_on
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone_pressureplate.click_off
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.stone_pressureplate.click_on
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.tripwire.attach
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.tripwire.click_off
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.tripwire.click_on
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.tripwire.detach
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.water.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.waterlily.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood_button.click_off
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood_button.click_on
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood_pressureplate.click_off
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wood_pressureplate.click_on
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wooden_door.close
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wooden_door.open
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wooden_trapdoor.close
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:block.wooden_trapdoor.open
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:enchant.thorns.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.armorstand.break
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.armorstand.fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.armorstand.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.armorstand.place
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.arrow.hit
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.arrow.hit_player
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.arrow.shoot
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bat.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bat.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bat.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bat.loop
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bat.takeoff
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.blaze.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.blaze.burn
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.blaze.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.blaze.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.blaze.shoot
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.boat.paddle_land
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.boat.paddle_water
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bobber.retrieve
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bobber.splash
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.bobber.throw
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.hiss
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.purr
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cat.purreow
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.chicken.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.chicken.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.chicken.egg
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.chicken.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.chicken.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cow.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cow.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cow.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cow.milk
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.cow.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.creeper.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.creeper.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.creeper.primed
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.donkey.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.donkey.angry
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.donkey.chest
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.donkey.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.donkey.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.egg.throw
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.ambient_land
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.curse
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.death_land
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.flop
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.elder_guardian.hurt_land
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.flap
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.growl
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon.shoot
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderdragon_fireball.explode
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endereye.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endereye.launch
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.scream
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.stare
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermen.teleport
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermite.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermite.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermite.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.endermite.step
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.enderpearl.throw
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_fangs.attack
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.cast_spell
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.prepare_attack
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.prepare_summon
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.evocation_illager.prepare_wololo
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.experience_bottle.throw
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.experience_orb.pickup
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.blast
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.blast_far
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.large_blast
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.large_blast_far
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.launch
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.shoot
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.twinkle
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.firework.twinkle_far
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.big_fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.burn
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.drink
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.eat
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.explode
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.extinguish_fire
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.small_fall
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.splash
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.generic.swim
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.scream
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.shoot
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.ghast.warn
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.ambient_land
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.attack
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.death_land
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.flop
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.hurt
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.guardian.hurt_land
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.ambient
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.angry
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.armor
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.breathe
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.death
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.eat
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.gallop
+[12:46:58] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.jump
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.land
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.saddle
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.horse.step_wood
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.big_fall
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.small_fall
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.splash
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.hostile.swim
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.husk.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.husk.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.husk.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.husk.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.cast_spell
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.mirror_move
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.prepare_blindness
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.illusion_illager.prepare_mirror
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.irongolem.attack
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.irongolem.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.irongolem.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.irongolem.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.item.break
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.item.pickup
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.itemframe.add_item
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.itemframe.break
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.itemframe.place
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.itemframe.remove_item
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.itemframe.rotate_item
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.leashknot.break
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.leashknot.place
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.lightning.impact
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.lightning.thunder
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.lingeringpotion.throw
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.angry
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.chest
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.eat
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.spit
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.llama.swag
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.magmacube.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.magmacube.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.magmacube.jump
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.magmacube.squish
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.minecart.inside
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.minecart.riding
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.mooshroom.shear
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.mule.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.mule.chest
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.mule.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.mule.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.painting.break
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.painting.place
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.eat
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.fly
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.blaze
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.creeper
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.elder_guardian
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.enderdragon
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.enderman
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.endermite
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.evocation_illager
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.ghast
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.husk
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.illusion_illager
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.magmacube
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.polar_bear
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.shulker
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.silverfish
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.skeleton
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.slime
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.spider
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.stray
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.vex
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.vindication_illager
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.witch
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.wither
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.wither_skeleton
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.wolf
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.zombie
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.zombie_pigman
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.imitate.zombie_villager
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.parrot.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.pig.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.pig.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.pig.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.pig.saddle
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.pig.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.crit
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.knockback
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.nodamage
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.strong
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.sweep
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.attack.weak
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.big_fall
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.breath
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.burp
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.hurt_drown
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.hurt_on_fire
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.levelup
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.small_fall
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.splash
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.player.swim
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.baby_ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.polar_bear.warning
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.rabbit.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.rabbit.attack
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.rabbit.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.rabbit.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.rabbit.jump
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.sheep.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.sheep.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.sheep.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.sheep.shear
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.sheep.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.close
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.hurt_closed
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.open
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.shoot
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker.teleport
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker_bullet.hit
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.shulker_bullet.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.silverfish.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.silverfish.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.silverfish.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.silverfish.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton.shoot
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton_horse.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton_horse.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.skeleton_horse.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.slime.attack
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.slime.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.slime.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.slime.jump
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.slime.squish
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_magmacube.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_magmacube.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_magmacube.squish
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_slime.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_slime.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_slime.jump
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.small_slime.squish
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.snowball.throw
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.snowman.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.snowman.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.snowman.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.snowman.shoot
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.spider.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.spider.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.spider.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.spider.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.splash_potion.break
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.splash_potion.throw
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.squid.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.squid.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.squid.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.stray.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.stray.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.stray.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.stray.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.tnt.primed
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vex.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vex.charge
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vex.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vex.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.no
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.trading
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.villager.yes
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vindication_illager.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vindication_illager.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.vindication_illager.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.witch.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.witch.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.witch.drink
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.witch.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.witch.throw
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.break_block
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.shoot
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither.spawn
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither_skeleton.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither_skeleton.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither_skeleton.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wither_skeleton.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.growl
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.howl
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.pant
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.shake
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.wolf.whine
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.attack_door_wood
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.attack_iron_door
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.break_door_wood
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.infect
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_horse.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_horse.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_horse.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_pig.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_pig.angry
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_pig.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_pig.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.ambient
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.converted
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.cure
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.death
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.hurt
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:entity.zombie_villager.step
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_chain
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_diamond
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_elytra
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_generic
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_gold
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_iron
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.armor.equip_leather
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bottle.empty
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bottle.fill
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bottle.fill_dragonbreath
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bucket.empty
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bucket.empty_lava
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bucket.fill
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.bucket.fill_lava
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.chorus_fruit.teleport
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.elytra.flying
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.firecharge.use
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.flintandsteel.use
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.hoe.till
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.shield.block
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.shield.break
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.shovel.flatten
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:item.totem.use
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.creative
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.credits
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.dragon
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.end
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.game
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.menu
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:music.nether
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.11
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.13
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.blocks
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.cat
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.chirp
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.far
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.mall
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.mellohi
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.stal
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.strad
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.wait
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:record.ward
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:ui.button.click
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:ui.toast.in
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:ui.toast.out
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:ui.toast.challenge_complete
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:weather.rain
+[12:46:59] [main/WARN] [net.minecraft.client.audio.SoundManager]: Missing sound for event: minecraft:weather.rain.above
+[12:46:59] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[12:46:59] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[12:46:59] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:46:59] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 56907900 nanos
+[12:46:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859
+[12:46:59] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[12:46:59] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[12:47:01] [main/INFO] [FML]: Max texture size: 16384
+[12:47:01] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[12:47:02] [main/ERROR] [FML]: Parsing error loading recipe blackoniummod:blackoniumslabrecette
 com.google.gson.JsonParseException: Missing data for item 'blackoniummod:blackoniumslab'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:215) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:516) ~[CraftingHelper.class:?]
@@ -655,77 +655,28 @@ com.google.gson.JsonParseException: Missing data for item 'blackoniummod:blackon
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_232]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
 	at GradleStart.main(GradleStart.java:25) [start/:?]
-[21:46:05] [main/INFO] [FML]: Applying holder lookups
-[21:46:05] [main/INFO] [FML]: Holder lookups applied
-[21:46:05] [main/INFO] [FML]: Injecting itemstacks
-[21:46:05] [main/INFO] [FML]: Itemstack injection complete
-[21:46:05] [main/WARN] [FML]: No types have been added to Biome blackoniummod:blackoniumbiome, types have been assigned on a best-effort guess: [FOREST]
-[21:46:05] [main/INFO] [jei]: Starting JEI...
-[21:46:05] [main/INFO] [jei]: Registering recipe categories...
-[21:46:05] [main/INFO] [jei]: Registering recipe categories took 31.45 ms
-[21:46:05] [main/INFO] [jei]: Registering mod plugins...
-[21:46:05] [main/INFO] [jei]: Registering mod plugins took 193.4 ms
-[21:46:05] [main/INFO] [jei]: Building recipe registry...
-[21:46:05] [main/INFO] [jei]: Building recipe registry took 90.02 ms
-[21:46:05] [main/INFO] [jei]: Building ingredient list...
-[21:46:05] [main/INFO] [jei]: Building ingredient list took 39.18 ms
-[21:46:05] [main/INFO] [jei]: Building ingredient filter...
-[21:46:06] [main/INFO] [jei]: Building ingredient filter took 139.0 ms
-[21:46:06] [main/INFO] [jei]: Building runtime...
-[21:46:06] [main/INFO] [jei]: Building runtime took 112.2 ms
-[21:46:06] [main/INFO] [jei]: Starting JEI took 872.4 ms
-[21:46:06] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[21:46:06] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[21:46:06] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[21:46:10] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[21:46:10] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[21:46:10] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[21:46:10] [Server thread/INFO] [FML]: Applying holder lookups
-[21:46:10] [Server thread/INFO] [FML]: Holder lookups applied
-[21:46:10] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@252a3476)
-[21:46:11] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[21:46:11] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@252a3476)
-[21:46:11] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@252a3476)
-[21:46:11] [Server thread/INFO] [FML]: Loading dimension 3 (New World) (net.minecraft.server.integrated.IntegratedServer@252a3476)
-[21:46:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[21:46:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 92%
-[21:46:12] [Server thread/INFO] [FML]: Unloading dimension -1
-[21:46:12] [Server thread/INFO] [FML]: Unloading dimension 1
-[21:46:12] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 5, from 10
-[21:46:13] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[21:46:13] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[21:46:13] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2768,mcp@9.42,blackoniummod@1.5.0,jei@4.13.1.225
-[21:46:13] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[21:46:13] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[21:46:13] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player78[local:E:392292ea] logged in with entity id 431 at (10.552227318887482, 63.0, 248.02274081983845)
-[21:46:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player78 joined the game
-[21:46:14] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[21:46:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[21:46:14] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 3 advancements
-[21:46:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/blackoniumdiemsion
-[21:46:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player78 has made the advancement [Monster Hunter]
-[21:46:15] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player78 has made the advancement [Monster Hunter]
-[21:46:15] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 13 advancements
-[21:46:33] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 20 advancements
-[21:46:36] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 23 advancements
-[21:46:39] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 24 advancements
-[21:46:45] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 25 advancements
-[21:46:54] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 25 advancements
-[21:47:10] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[21:47:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[21:47:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/blackoniumdiemsion
-[21:47:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[21:47:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[21:47:11] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player78 lost connection: Disconnected
-[21:47:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player78 left the game
-[21:47:11] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[21:47:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[21:47:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[21:47:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/blackoniumdiemsion
-[21:47:11] [Server thread/INFO] [FML]: Unloading dimension 0
-[21:47:11] [Server thread/INFO] [FML]: Unloading dimension 3
-[21:47:11] [Server thread/INFO] [FML]: Applying holder lookups
-[21:47:11] [Server thread/INFO] [FML]: Holder lookups applied
-[21:47:12] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[21:47:12] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[21:47:12] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[12:47:02] [main/INFO] [FML]: Applying holder lookups
+[12:47:02] [main/INFO] [FML]: Holder lookups applied
+[12:47:02] [main/INFO] [FML]: Injecting itemstacks
+[12:47:02] [main/INFO] [FML]: Itemstack injection complete
+[12:47:02] [main/WARN] [FML]: No types have been added to Biome blackoniummod:blackoniumbiome, types have been assigned on a best-effort guess: [FOREST]
+[12:47:02] [main/INFO] [jei]: Starting JEI...
+[12:47:02] [main/INFO] [jei]: Registering recipe categories...
+[12:47:02] [main/INFO] [jei]: Registering recipe categories took 20.55 ms
+[12:47:02] [main/INFO] [jei]: Registering mod plugins...
+[12:47:02] [main/INFO] [jei]: Registering mod plugins took 122.9 ms
+[12:47:02] [main/INFO] [jei]: Building recipe registry...
+[12:47:02] [main/INFO] [jei]: Building recipe registry took 66.80 ms
+[12:47:02] [main/INFO] [jei]: Building ingredient list...
+[12:47:02] [main/INFO] [jei]: Building ingredient list took 28.46 ms
+[12:47:02] [main/INFO] [jei]: Building ingredient filter...
+[12:47:02] [main/INFO] [jei]: Building ingredient filter took 81.10 ms
+[12:47:02] [main/INFO] [jei]: Building runtime...
+[12:47:02] [main/INFO] [jei]: Building runtime took 77.36 ms
+[12:47:02] [main/INFO] [jei]: Starting JEI took 583.5 ms
+[12:47:02] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[12:47:02] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[12:47:03] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: FML
+[12:47:30] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[12:47:30] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[12:47:31] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

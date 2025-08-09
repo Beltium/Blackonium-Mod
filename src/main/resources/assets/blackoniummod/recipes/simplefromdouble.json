@@ -1,0 +1,13 @@
+{
+  "group": "blackoniummod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "blackoniummod:doublecompblackonium"
+    }
+  ],
+  "result": {
+    "item": "blackoniummod:simplecompressblackonium",
+    "count": 9
+  }
+}

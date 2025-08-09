@@ -1,8 +1,8 @@
 {
   "id_map": {
     "ENTITY": 3,
-    "DIMENSION": 1,
-    "GUI": 1
+    "GUI": 1,
+    "DIMENSION": 1
   },
   "mod_elements": [
     {
@@ -767,6 +767,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "SimplefromDouble",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlockfromSimple",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
